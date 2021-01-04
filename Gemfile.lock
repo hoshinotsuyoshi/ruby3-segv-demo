@@ -5,19 +5,6 @@ PATH
       blog_core (= 4.2.0.rc2)
 
 PATH
-  remote: engines/auth
-  specs:
-    blog_auth_awesome (4.2.0)
-      blog_core (>= 4.1, < 5.0)
-
-PATH
-  remote: engines/backend
-  specs:
-    blog_backend (4.2.0.rc2)
-      blog_api (= 4.2.0.rc2)
-      blog_core (= 4.2.0.rc2)
-
-PATH
   remote: engines/core
   specs:
     blog_core (4.2.0.rc2)
@@ -164,10 +151,9 @@ PLATFORMS
 DEPENDENCIES
   activerecord-nulldb-adapter
   blog_api!
-  blog_auth_awesome!
-  blog_backend!
   blog_core!
   rails (= 6.1.0)
+  rake
   rexml
 
 RUBY VERSION

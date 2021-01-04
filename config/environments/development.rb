@@ -1,3 +1,3 @@
 Rails.application.configure do
-  config.eager_load = true
+  config.eager_load = false
 end

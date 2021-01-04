@@ -19,8 +19,20 @@ require "action_view/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+module Blog
+end
+module Blog::Auth
+end
+
+class Blog::Auth::Engine < Rails::Engine
+  config.to_prepare do
+    ::Blog::AccountController.prepend(Module.new)
+    ::Blog::AccountController.prepend(Module.new)
+    ::Blog::AccountController.prepend(Module.new)
+  end
+end
+
 module App
   class Application < Rails::Application
-    config.load_defaults 6.0
   end
 end
