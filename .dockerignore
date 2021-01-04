@@ -1,0 +1,8 @@
+node_modules
+vendor/bundle
+tmp/
+log/
+.env
+.git/
+.github
+.gitignore

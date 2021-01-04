@@ -1,0 +1,16 @@
+name: script
+
+on: [push]
+
+jobs:
+
+  script:
+    runs-on: ubuntu-latest
+
+    container:
+      image: rubylang/ruby:3.0.0-focal
+
+    steps:
+    - uses: actions/checkout@v1
+    - run: bundle config set --local path 'vendor/bundle' && bundle install -j9 --retry 3
+    - run: ./segv.sh
