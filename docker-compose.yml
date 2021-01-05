@@ -6,7 +6,7 @@ x-base: &app_base
     dockerfile: Dockerfile
   volumes:
     - .:/app:delegated
-    - bundle:/usr/local/bundle
+    - bundle:/app/vendor/bundle
   stdin_open: true
   tty: true
 

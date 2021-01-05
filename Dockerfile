@@ -8,7 +8,8 @@ WORKDIR /app
 COPY engines engines
 COPY Gemfile Gemfile.lock ./
 
-RUN bundle config set --local path 'vendor/bundle' && bundle install -j9 --retry 3
+RUN bundle config set --local path 'vendor/bundle'
+RUN bundle install -j9 --retry 3
 ADD . /app
 
 CMD ["tail", "-f"]
