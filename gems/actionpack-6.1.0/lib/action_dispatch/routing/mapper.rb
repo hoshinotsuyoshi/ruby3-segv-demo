@@ -1752,16 +1752,17 @@ module ActionDispatch
 
           def name_for_action(as, action)
             prefix = prefix_name_for_action(as, action)
+            prefix = nil
             name_prefix = @scope[:as]
 
-            if parent_resource
-              return nil unless as || action
+            #if parent_resource
+              raise unless as || action
 
               collection_name = parent_resource.collection_name
               member_name = parent_resource.member_name
-            else
-              raise
-            end
+            #else
+            #  raise
+            #end
 
             action_name = @scope.action_name(name_prefix, prefix, collection_name, member_name)
             candidate = action_name.select(&:present?).join("_")
