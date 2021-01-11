@@ -1440,11 +1440,12 @@ module ActionDispatch
         def resources(x)
           with_scope_level(:resources) do
             resource_scope(Resource.new(x, false, nil, {})) do
-              with_scope_level(:new) do
-                @scope = @scope.new(path: merge_path_scope(@scope[:path], "#{x}/new"))
+                @scope = @scope.new_level(:new)
+                y = merge_path_scope(@scope[:path], "#{x}/new")
+                @scope = @scope.new(path: y)
                 get :new
                 @scope = @scope.parent
-              end
+                @scope = @scope.parent
             end
           end
 
