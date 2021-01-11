@@ -1300,56 +1300,6 @@ module ActionDispatch
           @scope[:path_names].merge!(options)
         end
 
-        # Sometimes, you have a resource that clients always look up without
-        # referencing an ID. A common example, /profile always shows the
-        # profile of the currently logged in user. In this case, you can use
-        # a singular resource to map /profile (rather than /profile/:id) to
-        # the show action:
-        #
-        #   resource :profile
-        #
-        # This creates six different routes in your application, all mapping to
-        # the +Profiles+ controller (note that the controller is named after
-        # the plural):
-        #
-        #   GET       /profile/new
-        #   GET       /profile
-        #   GET       /profile/edit
-        #   PATCH/PUT /profile
-        #   DELETE    /profile
-        #   POST      /profile
-        #
-        # === Options
-        # Takes same options as resources[rdoc-ref:#resources]
-        def resource(*resources, &block)
-          options = resources.extract_options!.dup
-
-          if apply_common_behavior_for(:resource, resources, options, &block)
-            return self
-          end
-
-          with_scope_level(:resource) do
-            options = apply_action_options options
-            resource_scope(SingletonResource.new(resources.pop, api_only?, @scope[:shallow], options)) do
-              yield if block_given?
-
-              concerns(options[:concerns]) if options[:concerns]
-
-              new do
-                get :new
-              end if parent_resource.actions.include?(:new)
-
-              set_member_mappings_for_resource
-
-              collection do
-                post :create
-              end if parent_resource.actions.include?(:create)
-            end
-          end
-
-          self
-        end
-
         # In Rails, a resourceful route provides a mapping between HTTP verbs
         # and URLs and controller actions. By convention, each action also maps
         # to particular CRUD operations in a database. A single entry in the
