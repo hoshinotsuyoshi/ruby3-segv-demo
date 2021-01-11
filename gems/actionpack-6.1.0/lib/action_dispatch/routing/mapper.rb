@@ -762,7 +762,19 @@ module ActionDispatch
           def map_method(method, args, &block)
             options = args.extract_options!
             options[:via] = method
-            match(*args, options, &block)
+            # match(*args, options, &block)
+
+            #def match(path, *rest, &block)
+            #  # p path
+            #  # p rest
+            #  # :index
+            #  # [{:via=>:get}]
+            #  if rest.empty? && Hash === path
+            #    return
+            #  end
+              map_match(args, {via: method})
+            #end
+
             self
           end
       end
@@ -1631,14 +1643,14 @@ module ActionDispatch
         #   match 'path', to: 'controller#action', via: :post
         #   match 'path', 'otherpath', on: :member, via: :get
         def match(path, *rest, &block)
-          # p path
-          # p rest
-          # :index
-          # [{:via=>:get}]
-          if rest.empty? && Hash === path
-            return
-          end
-          map_match([path], rest.pop)
+          ## p path
+          ## p rest
+          ## :index
+          ## [{:via=>:get}]
+          #if rest.empty? && Hash === path
+          #  return
+          #end
+          #map_match([path], rest.pop)
         end
 
         # You can specify what Rails should route "/" to with the root method:
