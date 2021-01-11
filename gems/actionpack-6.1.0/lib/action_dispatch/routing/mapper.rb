@@ -1447,18 +1447,18 @@ module ActionDispatch
             candidate = action_name.select(&:present?).join("_")
           name = candidate
 
-          path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
-          ast = Journey::Parser.parse path
-          mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
-          # @set.setはJourney::Routes
-          route = @set.set.add_route(name, mapping)
+          ###path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
+          ###ast = Journey::Parser.parse path
+          ###mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
+          #### @set.setはJourney::Routes
+          ###route = @set.set.add_route(name, mapping)
 
           key       = name.to_sym
           path_name = :"#{name}_path"
 
           # routesはHash
-          routes = @set.named_routes.routes # publicにしたった
-          routes[key] = route
+          ###routes = @set.named_routes.routes # publicにしたった
+          ###routes[key] = route
 
           # TODO: segv point
           @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
