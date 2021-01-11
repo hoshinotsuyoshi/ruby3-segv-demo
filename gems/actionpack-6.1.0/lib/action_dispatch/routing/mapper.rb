@@ -1659,9 +1659,7 @@ module ActionDispatch
 
           p paths
           p options
-          if paths == [:index] && options == {:via=>:get}
-            map_match([:index], {via: :get})
-          end
+          map_match(paths, options)
         end
 
         # You can specify what Rails should route "/" to with the root method:
