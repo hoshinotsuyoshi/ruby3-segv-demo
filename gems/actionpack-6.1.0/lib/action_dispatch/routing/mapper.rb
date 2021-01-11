@@ -1441,7 +1441,7 @@ module ActionDispatch
           with_scope_level(:resources) do
             x = resources.pop
             resource_scope(Resource.new(x, false, nil, {})) do
-              yield if block_given?
+              # yield if block_given?
               new do
                 get :new
               end
