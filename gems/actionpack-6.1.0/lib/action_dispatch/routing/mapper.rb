@@ -1818,11 +1818,30 @@ module ActionDispatch
             controller, default_action, to, via, formatted, options_constraints, anchor, options = nil, "index", nil, [:get], nil, {}, true, {}
 
             mapping = Mapping.build(@scope, @set, ast, controller, default_action, to, via, formatted, options_constraints, anchor, options)
-            @set.add_route(mapping, as)
+            name = as
+            #@set.add_route(mapping, name)
 
 
+            #def add_route(mapping, name)
+              # setはJourney::Routes
+              # なんかよばないとすすまないのでよぶ
+              route = @set.set.add_route(name, mapping)
 
+              key       = name.to_sym
+              path_name = :"#{name}_path"
 
+              # routesはHash
+              routes = @set.named_routes.routes # publicにしたった
+              routes[key] = route
+
+              # TODO: segv point
+              @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
+              end
+
+              @set.named_routes.path_helpers << path_name
+
+              route
+            #end
           end
 
           def match_root_route(options)
