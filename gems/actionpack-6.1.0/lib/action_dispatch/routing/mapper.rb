@@ -1774,6 +1774,8 @@ module ActionDispatch
           end
 
           def map_match(paths, options)
+            p paths
+            p options
             controller = options.delete(:controller)
 
             path_types = paths.group_by(&:class)
