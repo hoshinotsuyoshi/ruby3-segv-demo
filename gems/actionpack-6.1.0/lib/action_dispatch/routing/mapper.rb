@@ -1437,7 +1437,12 @@ module ActionDispatch
 
           #get :new
           #map_method(:get, [:new])
-          map_match([:new], {via: :get})
+
+          controller = nil
+          action = :index
+          via = [:get]
+          anchor = true
+          add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
 
           #@scope = @scope.parent
           #@scope = @scope.parent
@@ -1774,15 +1779,15 @@ module ActionDispatch
           end
 
           def map_match(paths, options)
-            return if paths.empty?
-            controller = nil
-            action = :index
-            via = [:get]
-            anchor = true
+            #return if paths.empty?
+            #controller = nil
+            #action = :index
+            #via = [:get]
+            #anchor = true
 
-            add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
+            #add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
 
-            self
+            #self
           end
 
           def get_to_from_path(path, to, action)
