@@ -1438,12 +1438,7 @@ module ActionDispatch
           #get :new
           #map_method(:get, [:new])
 
-          controller = nil
-          action = :index
-          via = [:get]
-          anchor = true
-          add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
-
+          xxx
           #@scope = @scope.parent
           #@scope = @scope.parent
           #@scope = @scope.parent
@@ -1451,6 +1446,34 @@ module ActionDispatch
           #@scope = @scope.parent
 
           self
+        end
+
+        def xxx
+          yyy
+        end
+
+        def yyy
+          zzz
+        end
+
+        def zzz
+          aaa
+        end
+
+        def aaa
+          bbb
+        end
+
+        def bbb
+          ccc
+        end
+
+        def ccc
+          controller = nil
+          action = :index
+          via = [:get]
+          anchor = true
+          add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
         end
 
         # To add a route to the collection:
@@ -1807,8 +1830,13 @@ module ActionDispatch
 
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
             path = path_for_action(action, _path)
-            options.fetch(:as, true) # ?
-            as = name_for_action(nil, :index)
+
+            as = if !options.fetch(:as, true) # if it's set to nil or false
+              options.delete(:as)
+            else
+              name_for_action(options.delete(:as), action)
+            end
+
             path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), formatted
             ast = Journey::Parser.parse path
 

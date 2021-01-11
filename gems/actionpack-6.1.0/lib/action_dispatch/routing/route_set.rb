@@ -315,15 +315,15 @@ module ActionDispatch
           #
           def define_url_helper(mod, name, helper, url_strategy)
             mod.define_method(name) do |*args|
-              # last = args.last
-              # options = \
-              #   case last
-              #   when Hash
-              #     args.pop
-              #   when ActionController::Parameters
-              #     args.pop.to_h
-              #   end
-              # helper.call(self, name, args, options, url_strategy)
+              last = args.last
+              options = \
+                case last
+                when Hash
+                  args.pop
+                when ActionController::Parameters
+                  args.pop.to_h
+                end
+              helper.call(self, name, args, options, url_strategy)
             end
           end
       end
