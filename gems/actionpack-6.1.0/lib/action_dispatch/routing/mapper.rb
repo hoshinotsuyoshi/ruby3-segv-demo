@@ -1447,10 +1447,10 @@ module ActionDispatch
 
               # concerns(options[:concerns]) if options[:concerns]
 
-              collection do
-                get  :index if parent_resource.actions.include?(:index)
-                post :create if parent_resource.actions.include?(:create)
-              end
+              # collection do
+              #   get  :index if parent_resource.actions.include?(:index)
+              #   post :create if parent_resource.actions.include?(:create)
+              # end
 
               new do
                 get :new
