@@ -772,7 +772,7 @@ module ActionDispatch
             #  if rest.empty? && Hash === path
             #    return
             #  end
-              map_match(args, {via: method})
+            map_match(args, {via: method})
             #end
 
             self
@@ -1499,7 +1499,7 @@ module ActionDispatch
             resource_scope(Resource.new(resources.pop, api_only?, @scope[:shallow], options)) do
               yield if block_given?
 
-              concerns(options[:concerns]) if options[:concerns]
+              # concerns(options[:concerns]) if options[:concerns]
 
               collection do
                 get  :index if parent_resource.actions.include?(:index)
@@ -1692,6 +1692,7 @@ module ActionDispatch
           end
 
           def apply_common_behavior_for(method, resources, options, &block)
+            return
             if resources.length > 1
               resources.each { |r| public_send(method, r, options, &block) }
               return true
