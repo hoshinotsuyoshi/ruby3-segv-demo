@@ -1584,11 +1584,11 @@ module ActionDispatch
 
         # See ActionDispatch::Routing::Mapper::Scoping#namespace.
         def namespace(path, options = {})
-          if resource_scope?
-            nested { super }
-          else
+          #if resource_scope?
+          #  nested { super }
+          #else
             super
-          end
+          #end
         end
 
         def shallow
