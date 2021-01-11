@@ -1889,31 +1889,18 @@ module ActionDispatch
           end
 
           def map_match(paths, options)
-            controller = options.delete(:controller) || @scope[:controller]
-            #option_path = options.delete :path
-            #to = options.delete :to
-            via = Mapping.check_via Array(options.delete(:via) {
-              @scope[:via]
-            })
-            #formatted = options.delete(:format) { @scope[:format] }
-            anchor = options.delete(:anchor) { true }
-            #options_constraints = options.delete(:constraints) || {}
+            puts('----')
+            p paths
+            controller = options.delete(:controller)
 
             path_types = paths.group_by(&:class)
-            # (path_types[String] || []).each do |_path|
-            #   route_options = options.dup
-            #   to = get_to_from_path(_path, to, route_options[:action])
-            #   puts('====')
-            #   puts(_path, controller, route_options, _path, to, via, formatted, anchor, options_constraints)
-            #   add_route(_path, controller, route_options, _path, to, via, formatted, anchor, options_constraints)
-            # end
-
             (path_types[Symbol] || []).each do |action|
-              # route_options = options.dup
-              # puts('----')
-              # puts(action, controller, route_options, option_path, to, via, formatted, anchor, options_constraints)
-              # add_route(action, controller, route_options, option_path, to, via, formatted, anchor, options_constraints)
+              action = :index
+              via = [:get]
+              anchor = true
+
               add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
+              break
             end
 
             self
