@@ -1438,11 +1438,9 @@ module ActionDispatch
         #   # resource actions are at /admin/posts.
         #   resources :posts, path: "admin/posts"
         def resources(*resources, &block)
-          options = resources.extract_options!.dup
-
           with_scope_level(:resources) do
-            options = apply_action_options options
-            resource_scope(Resource.new(resources.pop, api_only?, @scope[:shallow], options)) do
+            x = resources.pop
+            resource_scope(Resource.new(x, false, nil, {})) do
               yield if block_given?
               new do
                 get :new
