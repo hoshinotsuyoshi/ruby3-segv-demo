@@ -1438,7 +1438,15 @@ module ActionDispatch
 
           # ==============================
           path = @scope[:path].to_s
-          name = name_for_action(nil, :index)
+          # name = name_for_action(nil, :index)
+
+            member_name = parent_resource.member_name
+            # よぶとsegvしやすい??
+            action_name = @scope.action_name(nil, nil, nil, member_name)
+            action_name = [nil, :new, nil, member_name]
+            candidate = action_name.select(&:present?).join("_")
+          name = candidate
+
           path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
           ast = Journey::Parser.parse path
           mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
@@ -1752,13 +1760,16 @@ module ActionDispatch
 
           def name_for_action(as, action)
             prefix = nil
-            name_prefix = @scope[:as]
-            raise unless name_prefix
+            name_prefix = nil
 
-            collection_name = parent_resource.collection_name
+            # collection_name = parent_resource.collection_name
             member_name = parent_resource.member_name
 
-            action_name = @scope.action_name(name_prefix, prefix, collection_name, member_name)
+            # よぶとsegvしやすい??
+            action_name = @scope.action_name(name_prefix, prefix, nil, member_name)
+
+            action_name = [prefix, :new, name_prefix, member_name]
+
             candidate = action_name.select(&:present?).join("_")
             candidate
 
