@@ -4,20 +4,13 @@ Blog::Core::Engine.add_routes do
       resources :promotions do
         resources :promotion_rules
         resources :promotion_actions
-        member do
-          post :clone
-        end
       end
 
       resources :promotion_categories, except: [:show]
 
       resources :zones
 
-      resources :stores do
-        member do
-          put :set_default
-        end
-      end
+      resources :stores
 
       resources :countries do
         resources :states
@@ -26,126 +19,46 @@ Blog::Core::Engine.add_routes do
       resources :tax_categories
 
       resources :products do
-        resources :product_properties do
-          collection do
-            post :update_positions
-          end
-        end
-        resources :images do
-          collection do
-            post :update_positions
-          end
-        end
-        member do
-          post :clone
-          get :stock
-        end
-        resources :variants do
-          collection do
-            post :update_positions
-          end
-        end
-        resources :variants_including_master, only: [:update]
-        resources :prices, only: [:index, :create]
+        resources :product_properties
+        resources :images
+        resources :variants
+        resources :variants_including_master
+        resources :prices
       end
 
-      resources :option_types do
-        collection do
-          post :update_positions
-          post :update_values_positions
-        end
-      end
+      resources :option_types
 
-      delete '/option_values/:id', to: 'option_values#destroy', as: :option_value
+      resources :properties
 
-      resources :properties do
-        collection do
-          get :filtered
-        end
-      end
+      resources :prototypes
 
-      delete '/product_properties/:id', to: 'product_properties#destroy', as: :product_property
+      resources :orders do
+        resources :state_changes
 
-      resources :prototypes do
-        member do
-          get :select
-        end
-
-        collection do
-          get :available
-        end
-      end
-
-      resources :orders, except: [:show] do
-        member do
-          get :cart
-          post :resend
-          get :open_adjustments
-          get :close_adjustments
-          put :approve
-          put :cancel
-          put :resume
-          get :store
-          put :set_store
-        end
-
-        resources :state_changes, only: [:index]
-
-        resource :customer, controller: 'orders/customer_details'
-        resources :customer_returns, only: [:index, :new, :edit, :create, :update] do
-          member do
-            put :refund
-          end
-        end
+        resource :customer
+        resources :customer_returns
 
         resources :adjustments
-        resources :return_authorizations do
-          member do
-            put :cancel
-          end
-        end
+        resources :return_authorizations
         resources :payments do
-          member do
-            put :fire
-          end
-
           resources :log_entries
-          resources :refunds, only: [:new, :create, :edit, :update]
+          resources :refunds
         end
 
-        resources :reimbursements, only: [:index, :create, :show, :edit, :update] do
-          member do
-            post :perform
-          end
-        end
+        resources :reimbursements
       end
 
-      get '/return_authorizations', to: 'return_index#return_authorizations', as: :return_authorizations
-      get '/customer_returns', to: 'return_index#customer_returns', as: :customer_returns
+      resource :general_settings
 
-      resource :general_settings do
-        collection do
-          post :clear_cache
-        end
-      end
-
-      resources :return_items, only: [:update]
+      resources :return_items
 
       resources :taxonomies do
-        collection do
-          post :update_positions
-        end
         resources :taxons
       end
 
-      resources :taxons, only: [:index, :show]
+      resources :taxons
 
-      resources :reports, only: [:index] do
-        collection do
-          get :sales_total
-          post :sales_total
-        end
-      end
+      resources :reports
 
       resources :reimbursement_types
       resources :refund_reasons, except: :show
@@ -156,30 +69,16 @@ Blog::Core::Engine.add_routes do
       resources :stock_transfers, only: [:index, :show, :new, :create]
       resources :stock_locations do
         resources :stock_movements, except: [:edit, :update, :destroy]
-        collection do
-          post :transfer_stock
-        end
       end
 
-      resources :stock_items, only: [:create, :update, :destroy]
+      resources :stock_items
       resources :store_credit_categories
       resources :tax_rates
-      resources :payment_methods do
-        collection do
-          post :update_positions
-        end
-      end
+      resources :payment_methods
+
       resources :roles
 
       resources :users do
-        member do
-          get :addresses
-          put :addresses
-          put :clear_api_key
-          put :generate_api_key
-          get :items
-          get :orders
-        end
         resources :store_credits
       end
     end
