@@ -1759,21 +1759,26 @@ module ActionDispatch
 
               collection_name = parent_resource.collection_name
               member_name = parent_resource.member_name
+            else
+              raise
             end
 
             action_name = @scope.action_name(name_prefix, prefix, collection_name, member_name)
             candidate = action_name.select(&:present?).join("_")
+            candidate
 
-            unless candidate.empty?
+            #unless candidate.empty?
               # If a name was not explicitly given, we check if it is valid
               # and return nil in case it isn't. Otherwise, we pass the invalid name
               # forward so the underlying router engine treats it and raises an exception.
-              if as.nil?
-                candidate unless !candidate.match?(/\A[_a-z]/i) || has_named_route?(candidate)
-              else
-                candidate
-              end
-            end
+              ##if as.nil?
+              ##  candidate unless !candidate.match?(/\A[_a-z]/i) || has_named_route?(candidate)
+              ##else
+              ##  candidate
+              ##end
+            #else
+            #  raise
+            #end
           end
 
           def set_member_mappings_for_resource # :doc:
