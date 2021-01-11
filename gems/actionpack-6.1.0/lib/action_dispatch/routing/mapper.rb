@@ -1435,6 +1435,12 @@ module ActionDispatch
           y = merge_path_scope(@scope[:path], "#{x}/new")
           @scope = @scope.new(path: y)
 
+          ###@scope = @scope.new({})
+          ###@scope = @scope.new({})
+          ###@scope = @scope.new({})
+          ###@scope = @scope.new({})
+          ###@scope = @scope.new({})
+
 
           #-----------------
           # ???: segv point???
