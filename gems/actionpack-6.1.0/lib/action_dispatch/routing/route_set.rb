@@ -577,28 +577,22 @@ module ActionDispatch
       end
 
       def add_route(mapping, name)
-        # @setはJourney::Routes
-
+        # setはJourney::Routes
         # なんかよばないとすすまないのでよぶ
-        route = @set.add_route(name, mapping)
+        route = set.add_route(name, mapping)
 
-        # named_routes はActionDispatch::Routing::RouteSet::NamedRouteCollection
-        # named_routes.add(name, route) if name
+        key       = name.to_sym
+        path_name = :"#{name}_path"
 
-        if name
-          key       = name.to_sym
-          path_name = :"#{name}_path"
+        # routesはHash
+        routes = named_routes.routes # publicにしたった
+        routes[key] = route
 
-          # routesはHash
-          routes = named_routes.routes # publicにしたった
-          routes[key] = route
-
-          # TODO: segv point
-          named_routes.path_helpers_module.define_method(path_name) do |*args|
-          end
-
-          named_routes.path_helpers << path_name
+        # TODO: segv point
+        named_routes.path_helpers_module.define_method(path_name) do |*args|
         end
+
+        named_routes.path_helpers << path_name
 
         route
       end
