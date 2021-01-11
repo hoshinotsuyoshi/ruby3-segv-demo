@@ -1440,6 +1440,8 @@ module ActionDispatch
           path = @scope[:path].to_s
           # name = name_for_action(nil, :index)
 
+            parent_resource = @scope[:scope_level_resource]
+
             member_name = parent_resource.member_name
             # よぶとsegvしやすい??
             action_name = @scope.action_name(nil, nil, nil, member_name)
