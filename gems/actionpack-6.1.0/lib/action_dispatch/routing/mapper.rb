@@ -1807,13 +1807,8 @@ module ActionDispatch
 
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
             path = path_for_action(action, _path)
-            p '---------'
-            p path
-
-            options.fetch(:as, true)
+            options.fetch(:as, true) # ?
             as = name_for_action(nil, :index)
-
-            p as
             path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), formatted
             ast = Journey::Parser.parse path
 
