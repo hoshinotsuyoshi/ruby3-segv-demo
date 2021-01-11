@@ -1918,12 +1918,12 @@ module ActionDispatch
                 raise ArgumentError, "Ambiguous route definition. Both :path and the route path were specified as strings."
               end
               to = get_to_from_path(_path, to, route_options[:action])
-              decomposed_match(_path, controller, route_options, _path, to, via, formatted, anchor, options_constraints)
+              add_route(_path, controller, route_options, _path, to, via, formatted, anchor, options_constraints)
             end
 
             (path_types[Symbol] || []).each do |action|
               route_options = options.dup
-              decomposed_match(action, controller, route_options, option_path, to, via, formatted, anchor, options_constraints)
+              add_route(action, controller, route_options, option_path, to, via, formatted, anchor, options_constraints)
             end
 
             self
@@ -1942,10 +1942,6 @@ module ActionDispatch
 
           def using_match_shorthand?(path)
             %r{^/?[-\w]+/[-\w/]+$}.match?(path)
-          end
-
-          def decomposed_match(path, controller, options, _path, to, via, formatted, anchor, options_constraints)
-            add_route(path, controller, options, _path, to, via, formatted, anchor, options_constraints)
           end
 
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
