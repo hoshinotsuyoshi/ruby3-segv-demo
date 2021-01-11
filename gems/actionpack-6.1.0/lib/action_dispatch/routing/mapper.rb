@@ -1446,7 +1446,8 @@ module ActionDispatch
           #@scope = @scope.new_level(:new)
           #y = merge_path_scope(@scope[:path], "#{x}/new")
           #@scope = @scope.new(path: y)
-          get :new
+          #get :new
+          map_method(:get, [:new])
           #@scope = @scope.parent
           #@scope = @scope.parent
           #@scope = @scope.parent
