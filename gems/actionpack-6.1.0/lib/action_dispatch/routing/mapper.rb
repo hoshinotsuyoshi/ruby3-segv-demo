@@ -1810,12 +1810,8 @@ module ActionDispatch
             p '---------'
             p path
 
-            as = if !options.fetch(:as, true) # if it's set to nil or false
-              options.delete(:as)
-              raise
-            else
-              name_for_action(options.delete(:as), action)
-            end
+            options.fetch(:as, true)
+            as = name_for_action(nil, :index)
 
             p as
             path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), formatted
