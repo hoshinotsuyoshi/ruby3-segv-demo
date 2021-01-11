@@ -957,18 +957,19 @@ module ActionDispatch
         #     resources :posts
         #   end
         def namespace(path, options = {})
-          path = path.to_s
+          yield
+          # path = path.to_s
 
-          defaults = {
-            module:         path,
-            as:             options.fetch(:as, path),
-            shallow_path:   options.fetch(:path, path),
-            shallow_prefix: options.fetch(:as, path)
-          }
+          # defaults = {
+          #   module:         path,
+          #   as:             options.fetch(:as, path),
+          #   shallow_path:   options.fetch(:path, path),
+          #   shallow_prefix: options.fetch(:as, path)
+          # }
 
-          path_scope(options.delete(:path) { path }) do
-            scope(defaults.merge!(options)) { yield }
-          end
+          # path_scope(options.delete(:path) { path }) do
+          #   scope(defaults.merge!(options)) { yield }
+          # end
         end
 
         # === Parameter Restriction
