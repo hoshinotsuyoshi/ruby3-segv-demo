@@ -1631,35 +1631,14 @@ module ActionDispatch
         #   match 'path', to: 'controller#action', via: :post
         #   match 'path', 'otherpath', on: :member, via: :get
         def match(path, *rest, &block)
+          # p path
+          # p rest
+          # :index
+          # [{:via=>:get}]
           if rest.empty? && Hash === path
-            options  = path
-            path, to = options.find { |name, _value| name.is_a?(String) }
-
-            raise ArgumentError, "Route path not specified" if path.nil?
-
-            case to
-            when Symbol
-              options[:action] = to
-            when String
-              if /#/.match?(to)
-                options[:to] = to
-              else
-                options[:controller] = to
-              end
-            else
-              options[:to] = to
-            end
-
-            options.delete(path)
-            paths = [path]
-          else
-            options = rest.pop || {}
-            paths = [path] + rest
+            return
           end
-
-          p paths
-          p options
-          map_match(paths, options)
+          map_match([path], rest.pop)
         end
 
         # You can specify what Rails should route "/" to with the root method:
