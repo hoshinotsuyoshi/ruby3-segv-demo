@@ -1435,7 +1435,29 @@ module ActionDispatch
           y = merge_path_scope(@scope[:path], "#{x}/new")
           @scope = @scope.new(path: y)
 
-          ccc(:index)
+
+          # ==============================
+          path = path_for_action(:index, nil)
+          name = name_for_action(nil, :index)
+          path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
+          ast = Journey::Parser.parse path
+          mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
+          # @set.setはJourney::Routes
+          route = @set.set.add_route(name, mapping)
+
+          key       = name.to_sym
+          path_name = :"#{name}_path"
+
+          # routesはHash
+          routes = @set.named_routes.routes # publicにしたった
+          routes[key] = route
+
+          # TODO: segv point
+          @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
+          end
+
+          @set.named_routes.path_helpers << path_name
+          # ==============================
 
           @scope = @scope.parent
           @scope = @scope.parent
@@ -1446,38 +1468,7 @@ module ActionDispatch
           self
         end
 
-        def ccc(action)
-          # controller = nil
-          # action = :index
-          # via = [:get]
-          # anchor = true
-
-          # add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
-
-          # def add_route(action, nil, {}, _path, to, via, formatted, anchor, options_constraints)
-            path = path_for_action(action, nil)
-            name = name_for_action(nil, action)
-            path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
-            ast = Journey::Parser.parse path
-            mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
-            # @set.setはJourney::Routes
-            route = @set.set.add_route(name, mapping)
-
-            key       = name.to_sym
-            path_name = :"#{name}_path"
-
-            # routesはHash
-            routes = @set.named_routes.routes # publicにしたった
-            routes[key] = route
-
-            # TODO: segv point
-            @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
-            end
-
-            @set.named_routes.path_helpers << path_name
-
-            route
-          # end
+        def ccc
 
           self
         end
