@@ -1441,7 +1441,8 @@ module ActionDispatch
           with_scope_level(:resources) do
             r = Resource.new(x, false, nil, {})
             @scope = @scope.new(scope_level_resource: r)
-            controller(r.resource_scope) do
+            cont = r.resource_scope
+            controller(cont) do
                 @scope = @scope.new_level(:new)
                 y = merge_path_scope(@scope[:path], "#{x}/new")
                 @scope = @scope.new(path: y)
