@@ -103,7 +103,7 @@ module ActionDispatch
         def add(name, route)
           key       = name.to_sym
           path_name = :"#{name}_path"
-          url_name  = :"#{name}_url"
+          # url_name  = :"#{name}_url"
 
           # if routes.key? key
           #   raise
@@ -119,10 +119,10 @@ module ActionDispatch
           # define_url_helper @path_helpers_module, path_name, helper, PATH
           # define_url_helper @url_helpers_module, url_name, helper, UNKNOWN
           define_url_helper @path_helpers_module, path_name, helper, nil
-          define_url_helper @url_helpers_module, url_name, helper, nil
+          # define_url_helper @url_helpers_module, url_name, helper, nil
 
           @path_helpers << path_name
-          @url_helpers << url_name
+          # @url_helpers << url_name
         end
 
         def get(name)
