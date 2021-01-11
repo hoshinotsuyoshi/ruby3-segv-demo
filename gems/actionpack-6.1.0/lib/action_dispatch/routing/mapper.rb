@@ -1657,11 +1657,7 @@ module ActionDispatch
             paths = [path] + rest
           end
 
-          if options.key?(:defaults)
-            defaults(options.delete(:defaults)) { map_match(paths, options, &block) }
-          else
-            map_match(paths, options, &block)
-          end
+          map_match(paths, options)
         end
 
         # You can specify what Rails should route "/" to with the root method:
@@ -1889,8 +1885,6 @@ module ActionDispatch
           end
 
           def map_match(paths, options)
-            puts('----')
-            p paths
             controller = options.delete(:controller)
 
             path_types = paths.group_by(&:class)
