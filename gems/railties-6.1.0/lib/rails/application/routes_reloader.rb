@@ -17,6 +17,12 @@ module Rails
       end
 
       def reload!
+          p route_sets
+          p paths
+          p external_routes
+          p eager_load
+          puts 
+
         clear!
         load_paths
         finalize!
@@ -32,11 +38,6 @@ module Rails
             hash[dir.to_s] = %w(rb)
           end
 
-          p route_sets
-          p paths
-          p external_routes
-          p eager_load
-          puts 
           ActiveSupport::FileUpdateChecker.new(paths, dirs) { reload! }
         end
       end

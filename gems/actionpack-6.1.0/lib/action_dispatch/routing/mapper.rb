@@ -1427,6 +1427,8 @@ module ActionDispatch
         #   # resource actions are at /admin/posts.
         #   resources :posts, path: "admin/posts"
         def resources(x)
+
+      puts :xxxxxxxxxxxx
           @scope = @scope.new_level(:resources)
           r = Resource.new(x, false, nil, {})
           @scope = @scope.new(scope_level_resource: r)
