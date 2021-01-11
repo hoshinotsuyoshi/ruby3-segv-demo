@@ -1,12 +1,12 @@
 Blog::Core::Engine.add_routes do
   namespace :application do
-    namespace :admin, path: Blog.admin_path do
+    namespace :admin do
       resources :promotions do
         resources :promotion_rules
         resources :promotion_actions
       end
 
-      resources :promotion_categories, except: [:show]
+      resources :promotion_categories
 
       resources :zones
 
@@ -35,7 +35,7 @@ Blog::Core::Engine.add_routes do
       resources :orders do
         resources :state_changes
 
-        resource :customer
+        resources :customers
         resources :customer_returns
 
         resources :adjustments
@@ -48,7 +48,7 @@ Blog::Core::Engine.add_routes do
         resources :reimbursements
       end
 
-      resource :general_settings
+      resources :general_settings
 
       resources :return_items
 
@@ -61,14 +61,14 @@ Blog::Core::Engine.add_routes do
       resources :reports
 
       resources :reimbursement_types
-      resources :refund_reasons, except: :show
-      resources :return_authorization_reasons, except: :show
+      resources :refund_reasons
+      resources :return_authorization_reasons
 
       resources :shipping_methods
       resources :shipping_categories
-      resources :stock_transfers, only: [:index, :show, :new, :create]
+      resources :stock_transfers
       resources :stock_locations do
-        resources :stock_movements, except: [:edit, :update, :destroy]
+        resources :stock_movements
       end
 
       resources :stock_items
