@@ -6,6 +6,7 @@ RUN mkdir /app
 WORKDIR /app
 
 COPY engines engines
+COPY gems gems
 COPY Gemfile Gemfile.lock ./
 
 RUN bundle config set --local path 'vendor/bundle'
