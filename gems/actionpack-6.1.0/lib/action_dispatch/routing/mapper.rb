@@ -1810,38 +1810,27 @@ module ActionDispatch
 
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
             path = path_for_action(action, _path)
-
-            as = name_for_action(options.delete(:as), action)
+            name = name_for_action(options.delete(:as), action)
             path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), formatted
             ast = Journey::Parser.parse path
+            mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
+            # @set.setはJourney::Routes
+            route = @set.set.add_route(name, mapping)
 
-            controller, default_action, to, via, formatted, options_constraints, anchor, options = nil, "index", nil, [:get], nil, {}, true, {}
+            key       = name.to_sym
+            path_name = :"#{name}_path"
 
-            mapping = Mapping.build(@scope, @set, ast, controller, default_action, to, via, formatted, options_constraints, anchor, options)
-            name = as
-            #@set.add_route(mapping, name)
+            # routesはHash
+            routes = @set.named_routes.routes # publicにしたった
+            routes[key] = route
 
+            # TODO: segv point
+            @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
+            end
 
-            #def add_route(mapping, name)
-              # setはJourney::Routes
-              # なんかよばないとすすまないのでよぶ
-              route = @set.set.add_route(name, mapping)
+            @set.named_routes.path_helpers << path_name
 
-              key       = name.to_sym
-              path_name = :"#{name}_path"
-
-              # routesはHash
-              routes = @set.named_routes.routes # publicにしたった
-              routes[key] = route
-
-              # TODO: segv point
-              @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
-              end
-
-              @set.named_routes.path_helpers << path_name
-
-              route
-            #end
+            route
           end
 
           def match_root_route(options)

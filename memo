@@ -1,43 +1,45 @@
 + bin/rails runner segv.rb
 1 times reloaded
-15.068211000000002 MB
+14.406994000000001 MB
 2 times reloaded
-17.057565 MB
+16.396348000000003 MB
 3 times reloaded
-13.058968000000002 MB
+18.383869999999998 MB
 4 times reloaded
-15.046706 MB
+14.246707 MB
 5 times reloaded
-17.034228 MB
+16.234397 MB
 6 times reloaded
-13.813665 MB
+18.221919000000003 MB
 7 times reloaded
-15.801251 MB
+14.817598 MB
 8 times reloaded
-17.788773000000003 MB
-/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1838: [BUG] Segmentation fault at 0x0000000000000010
+16.805135999999997 MB
+9 times reloaded
+18.792658 MB
+/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1828: [BUG] Segmentation fault at 0x0000000000000010
 ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
 
 -- Control frame information -----------------------------------------------
-c:0067 p:---- s:0375 e:000374 CFUNC  :define_method
-c:0066 p:0210 s:0370 E:0000f8 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1838
+c:0067 p:---- s:0373 e:000372 CFUNC  :define_method
+c:0066 p:0174 s:0368 E:001808 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1828
 c:0065 p:0029 s:0347 e:000346 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1455
 c:0064 p:0108 s:0339 e:000338 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1438
-c:0063 p:0066 s:0331 e:000330 BLOCK  /app/config/routes.rb:31
+c:0063 p:0007 s:0331 e:000330 BLOCK  /app/engines/core/config/routes.rb:4
 c:0062 p:0003 s:0328 e:000327 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0061 p:0288 s:0325 e:000324 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901
 c:0060 p:0011 s:0316 e:000315 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0059 p:0022 s:0313 e:000312 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1779
 c:0058 p:0060 s:0308 e:000307 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969
 c:0057 p:0023 s:0301 e:000300 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1543
-c:0056 p:0007 s:0295 e:000294 BLOCK  /app/config/routes.rb:3
+c:0056 p:0007 s:0295 e:000294 BLOCK  /app/engines/core/config/routes.rb:3
 c:0055 p:0003 s:0292 e:000291 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0054 p:0288 s:0289 e:000288 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901
 c:0053 p:0011 s:0280 e:000279 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0052 p:0022 s:0277 e:000276 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1779
 c:0051 p:0060 s:0272 e:000271 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969
 c:0050 p:0023 s:0265 e:000264 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1543
-c:0049 p:0007 s:0259 e:000258 BLOCK  /app/config/routes.rb:2 [FINISH]
+c:0049 p:0007 s:0259 e:000258 BLOCK  /app/engines/core/config/routes.rb:2 [FINISH]
 c:0048 p:---- s:0256 e:000255 CFUNC  :instance_exec
 c:0047 p:0021 s:0252 e:000251 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:423
 c:0046 p:0026 s:0246 e:000245 METHOD /app/engines/core/lib/blog/core/routes.rb:17 [FINISH]
@@ -46,7 +48,7 @@ c:0044 p:0024 s:0236 e:000235 METHOD /app/gems/railties-6.1.0/lib/rails/railtie.
 c:0043 p:0007 s:0229 e:000228 BLOCK  /app/engines/core/lib/blog/core/routes.rb:12 [FINISH]
 c:0042 p:---- s:0225 e:000224 CFUNC  :each
 c:0041 p:0032 s:0221 e:000220 METHOD /app/engines/core/lib/blog/core/routes.rb:12
-c:0040 p:0041 s:0216 E:001000 TOP    /app/engines/core/config/routes.rb:88 [FINISH]
+c:0040 p:0041 s:0216 E:0002c0 TOP    /app/engines/core/config/routes.rb:88 [FINISH]
 c:0039 p:---- s:0213 e:000212 CFUNC  :load
 c:0038 p:0009 s:0207 e:000206 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/dependencies.rb:326
 c:0037 p:0068 s:0204 e:000203 METHOD /app/gems/activesupport-6.1.0/lib/active_support/dependencies.rb:299
@@ -65,7 +67,7 @@ c:0025 p:0010 s:0144 e:000143 BLOCK  /app/gems/activesupport-6.1.0/lib/active_su
 c:0024 p:0005 s:0141 e:000140 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:604 [FINISH]
 c:0023 p:---- s:0138 e:000137 CFUNC  :catch
 c:0022 p:0011 s:0133 e:000132 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:603
-c:0021 p:0040 s:0127 E:0016d8 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:199
+c:0021 p:0040 s:0127 E:000f88 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:199
 c:0020 p:0007 s:0118 e:000117 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:512 [FINISH]
 c:0019 p:---- s:0114 e:000113 CFUNC  :each
 c:0018 p:0006 s:0110 e:000109 METHOD /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:512
@@ -84,8 +86,8 @@ c:0006 p:0045 s:0036 e:000035 METHOD /app/gems/railties-6.1.0/lib/rails/command/
 c:0005 p:0153 s:0029 e:000028 METHOD /app/gems/railties-6.1.0/lib/rails/command.rb:50
 c:0004 p:0063 s:0017 e:000016 TOP    /app/gems/railties-6.1.0/lib/rails/commands.rb:18 [FINISH]
 c:0003 p:---- s:0012 e:000011 CFUNC  :require
-c:0002 p:0051 s:0007 E:000758 EVAL   bin/rails:11 [FINISH]
-c:0001 p:0000 s:0003 E:002530 (none) [FINISH]
+c:0002 p:0051 s:0007 E:000e18 EVAL   bin/rails:11 [FINISH]
+c:0001 p:0000 s:0003 E:0009c0 (none) [FINISH]
 
 -- Ruby level backtrace information ----------------------------------------
 bin/rails:11:in `<main>'
@@ -135,146 +137,146 @@ segv.rb:6:in `block in <top (required)>'
 /app/engines/core/lib/blog/core/routes.rb:17:in `eval_block'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:423:in `eval_block'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:423:in `instance_exec'
-/app/config/routes.rb:2:in `block in <top (required)>'
+/app/engines/core/config/routes.rb:2:in `block in <top (required)>'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1543:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1779:in `path_scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block in namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901:in `scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block (2 levels) in namespace'
-/app/config/routes.rb:3:in `block (2 levels) in <top (required)>'
+/app/engines/core/config/routes.rb:3:in `block (2 levels) in <top (required)>'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1543:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1779:in `path_scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block in namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901:in `scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block (2 levels) in namespace'
-/app/config/routes.rb:31:in `block (3 levels) in <top (required)>'
+/app/engines/core/config/routes.rb:4:in `block (3 levels) in <top (required)>'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1438:in `resources'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1455:in `ccc'
-/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1838:in `add_route'
-/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1838:in `define_method'
+/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1828:in `add_route'
+/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1828:in `define_method'
 
 -- Machine register context ------------------------------------------------
- RIP: 0x00007fd75b7edf84 RBP: 0x00000000000553c0 RSP: 0x00007fffc39a9a80
- RAX: 0x0000000000000000 RBX: 0x0000561fa7158fe8 RCX: 0x000000000000003c
- RDX: 0x00007fffc39a9a80 RDI: 0x0000561fa79c4420 RSI: 0x00000000000553c0
-  R8: 0x000000000000553c  R9: 0x0000000000000000 R10: 0x0000561fa5aef020
- R11: 0x00007fd75b85c0b0 R12: 0x00000000000553c0 R13: 0x00007fffc39a9a80
- R14: 0x0000561fa76d1c40 R15: 0x0000561fa85bb010 EFL: 0x0000000000010206
+ RIP: 0x00007fe1bd34df84 RBP: 0x0000000000055510 RSP: 0x00007ffd411dcdd0
+ RAX: 0x0000000000000000 RBX: 0x00005636090355d0 RCX: 0x0000000000000051
+ RDX: 0x00007ffd411dcdd0 RDI: 0x0000563609f40fd0 RSI: 0x0000000000055510
+  R8: 0x0000000000005551  R9: 0x0000000000000000 R10: 0x0000000000000007
+ R11: 0x0000000000000007 R12: 0x0000000000055510 R13: 0x00007ffd411dcdd0
+ R14: 0x00005636095fcb80 R15: 0x0000563609e3b820 EFL: 0x0000000000010202
 
 -- C level backtrace information -------------------------------------------
-/usr/local/lib/libruby.so.3.0(rb_print_backtrace+0x11) [0x7fd75b818e53] /usr/src/ruby/vm_dump.c:758
+/usr/local/lib/libruby.so.3.0(rb_print_backtrace+0x11) [0x7fe1bd378e53] /usr/src/ruby/vm_dump.c:758
 /usr/local/lib/libruby.so.3.0(rb_vm_bugreport) /usr/src/ruby/vm_dump.c:998
-/usr/local/lib/libruby.so.3.0(rb_bug_for_fatal_signal+0x162) [0x7fd75b623dc2] /usr/src/ruby/error.c:786
-/usr/local/lib/libruby.so.3.0(sigsegv+0x4d) [0x7fd75b77002d] /usr/src/ruby/signal.c:960
-/lib/x86_64-linux-gnu/libc.so.6(0x7fd75b3a4210) [0x7fd75b3a4210]
-/usr/local/lib/libruby.so.3.0(lookup_method_table+0x0) [0x7fd75b7edf84] /usr/src/ruby/vm_method.c:968
+/usr/local/lib/libruby.so.3.0(rb_bug_for_fatal_signal+0x162) [0x7fe1bd183dc2] /usr/src/ruby/error.c:786
+/usr/local/lib/libruby.so.3.0(sigsegv+0x4d) [0x7fe1bd2d002d] /usr/src/ruby/signal.c:960
+/lib/x86_64-linux-gnu/libc.so.6(0x7fe1bcf04210) [0x7fe1bcf04210]
+/usr/local/lib/libruby.so.3.0(lookup_method_table+0x0) [0x7fe1bd34df84] /usr/src/ruby/vm_method.c:968
 /usr/local/lib/libruby.so.3.0(search_method) /usr/src/ruby/vm_method.c:970
 /usr/local/lib/libruby.so.3.0(complemented_callable_method_entry) /usr/src/ruby/vm_method.c:1050
 /usr/local/lib/libruby.so.3.0(clear_method_cache_by_id_in_class) /usr/src/ruby/vm_method.c:163
 /usr/local/lib/libruby.so.3.0(clear_method_cache_by_id_in_class) /usr/src/ruby/vm_method.c:136
 /usr/local/lib/libruby.so.3.0(clear_iclass_method_cache_by_id) /usr/src/ruby/vm_method.c:213
-/usr/local/lib/libruby.so.3.0(rb_class_foreach_subclass+0x2d) [0x7fd75b5b7c7d] /usr/src/ruby/class.c:133
-/usr/local/lib/libruby.so.3.0(rb_method_entry_make+0x213) [0x7fd75b80bdd3] /usr/src/ruby/vm_method.c:834
-/usr/local/lib/libruby.so.3.0(rb_add_method+0x2a) [0x7fd75b80c2ba] /usr/src/ruby/vm_method.c:891
-/usr/local/lib/libruby.so.3.0(rb_mod_define_method+0x1a3) [0x7fd75b710e83] /usr/src/ruby/proc.c:2236
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fd75b804e14] /usr/src/ruby/vm.c:2172
-/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fd75b8132b1] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(vm_call0_body+0x9) [0x7fd75b80a1a3] /usr/src/ruby/vm_eval.c:140
+/usr/local/lib/libruby.so.3.0(rb_class_foreach_subclass+0x2d) [0x7fe1bd117c7d] /usr/src/ruby/class.c:133
+/usr/local/lib/libruby.so.3.0(rb_method_entry_make+0x213) [0x7fe1bd36bdd3] /usr/src/ruby/vm_method.c:834
+/usr/local/lib/libruby.so.3.0(rb_add_method+0x2a) [0x7fe1bd36c2ba] /usr/src/ruby/vm_method.c:891
+/usr/local/lib/libruby.so.3.0(rb_mod_define_method+0x1a3) [0x7fe1bd270e83] /usr/src/ruby/proc.c:2236
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fe1bd364e14] /usr/src/ruby/vm.c:2172
+/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fe1bd3732b1] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(vm_call0_body+0x9) [0x7fe1bd36a1a3] /usr/src/ruby/vm_eval.c:140
 /usr/local/lib/libruby.so.3.0(rb_vm_call0) /usr/src/ruby/vm_eval.c:57
-/usr/local/lib/libruby.so.3.0(send_internal+0xf6) [0x7fd75b80b316] /usr/src/ruby/vm_eval.c:1085
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fd75b808d3e] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fd75b58ee9c] /usr/src/ruby/array.c:2523
+/usr/local/lib/libruby.so.3.0(send_internal+0xf6) [0x7fe1bd36b316] /usr/src/ruby/vm_eval.c:1085
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fe1bd368d3e] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fe1bd0eee9c] /usr/src/ruby/array.c:2523
 /usr/local/lib/libruby.so.3.0(RB_FL_ANY_RAW) /usr/src/ruby/include/ruby/internal/fl_type.h:258
 /usr/local/lib/libruby.so.3.0(rb_array_len) /usr/src/ruby/include/ruby/internal/core/rarray.h:135
 /usr/local/lib/libruby.so.3.0(rb_ary_each) /usr/src/ruby/array.c:2522
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fd75b685e99] /usr/src/ruby/load.c:594
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fe1bd1e5e99] /usr/src/ruby/load.c:594
 /usr/local/lib/libruby.so.3.0(rb_load_internal) /usr/src/ruby/load.c:654
 /usr/local/lib/libruby.so.3.0(rb_f_load) /usr/src/ruby/load.c:726
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x8) [0x7fd75b8016e2] /usr/src/ruby/vm_insnhelper.c:4504
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x8) [0x7fe1bd3616e2] /usr/src/ruby/vm_insnhelper.c:4504
 /usr/local/lib/libruby.so.3.0(vm_exec_core) insns.def:876
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fd75b808d3e] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fd75b58ee9c] /usr/src/ruby/array.c:2523
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fe1bd368d3e] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fe1bd0eee9c] /usr/src/ruby/array.c:2523
 /usr/local/lib/libruby.so.3.0(RB_FL_ANY_RAW) /usr/src/ruby/include/ruby/internal/fl_type.h:258
 /usr/local/lib/libruby.so.3.0(rb_array_len) /usr/src/ruby/include/ruby/internal/core/rarray.h:135
 /usr/local/lib/libruby.so.3.0(rb_ary_each) /usr/src/ruby/array.c:2522
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fd75b8132b1] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fd75b805d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fd75b8063f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_call_symbol+0x174) [0x7fd75b806a94] /usr/src/ruby/vm_insnhelper.c:3112
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(catch_i+0x2af) [0x7fd75b808a0f] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(vm_catch_protect+0xf2) [0x7fd75b7f78a2] /usr/src/ruby/vm_eval.c:2245
-/usr/local/lib/libruby.so.3.0(rb_catch_obj+0x50) [0x7fd75b7f7a60] /usr/src/ruby/vm_eval.c:2271
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fd75b808d3e] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fd75b58ee9c] /usr/src/ruby/array.c:2523
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fe1bd3732b1] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fe1bd365d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fe1bd3663f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_call_symbol+0x174) [0x7fe1bd366a94] /usr/src/ruby/vm_insnhelper.c:3112
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(catch_i+0x2af) [0x7fe1bd368a0f] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(vm_catch_protect+0xf2) [0x7fe1bd3578a2] /usr/src/ruby/vm_eval.c:2245
+/usr/local/lib/libruby.so.3.0(rb_catch_obj+0x50) [0x7fe1bd357a60] /usr/src/ruby/vm_eval.c:2271
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fe1bd368d3e] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fe1bd0eee9c] /usr/src/ruby/array.c:2523
 /usr/local/lib/libruby.so.3.0(RB_FL_ANY_RAW) /usr/src/ruby/include/ruby/internal/fl_type.h:258
 /usr/local/lib/libruby.so.3.0(rb_array_len) /usr/src/ruby/include/ruby/internal/core/rarray.h:135
 /usr/local/lib/libruby.so.3.0(rb_ary_each) /usr/src/ruby/array.c:2522
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield_1+0x2af) [0x7fd75b80868f] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(int_dotimes+0x5c) [0x7fd75b6c443c] /usr/src/ruby/numeric.c:5125
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fd75b805d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fd75b8063f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fd75b7f5753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fd75b7fea5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fd75b80455b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fd75b685e99] /usr/src/ruby/load.c:594
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield_1+0x2af) [0x7fe1bd36868f] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(int_dotimes+0x5c) [0x7fe1bd22443c] /usr/src/ruby/numeric.c:5125
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fe1bd365d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fe1bd3663f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fe1bd355753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fe1bd35ea5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fe1bd36455b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fe1bd1e5e99] /usr/src/ruby/load.c:594
 /usr/local/lib/libruby.so.3.0(rb_load_internal) /usr/src/ruby/load.c:654
 /usr/local/lib/libruby.so.3.0(rb_f_load) /usr/src/ruby/load.c:726
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fd75b805d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fd75b8063f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fd75b7fe9e7] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fe1bd365d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fe1bd3663f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fe1bd35e9e7] /usr/src/ruby/vm_insnhelper.c:4499
 /usr/local/lib/libruby.so.3.0(vm_exec_core) insns.def:789
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fd75b804e14] /usr/src/ruby/vm.c:2172
-/usr/local/lib/libruby.so.3.0(load_iseq_eval+0x9) [0x7fd75b687780] /usr/src/ruby/load.c:594
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fe1bd364e14] /usr/src/ruby/vm.c:2172
+/usr/local/lib/libruby.so.3.0(load_iseq_eval+0x9) [0x7fe1bd1e7780] /usr/src/ruby/load.c:594
 /usr/local/lib/libruby.so.3.0(require_internal) /usr/src/ruby/load.c:1065
-/usr/local/lib/libruby.so.3.0(rb_require_string+0x30) [0x7fd75b6881c0] /usr/src/ruby/load.c:1142
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fd75b7f143b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fd75b805d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_alias+0x86) [0x7fd75b8072e6] /usr/src/ruby/vm_insnhelper.c:3038
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x249) [0x7fd75b805ee9] /usr/src/ruby/vm_insnhelper.c:3418
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fd75b8063f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fd75b7fe9e7] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(rb_require_string+0x30) [0x7fe1bd1e81c0] /usr/src/ruby/load.c:1142
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fe1bd35143b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fe1bd365d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_alias+0x86) [0x7fe1bd3672e6] /usr/src/ruby/vm_insnhelper.c:3038
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x249) [0x7fe1bd365ee9] /usr/src/ruby/vm_insnhelper.c:3418
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fe1bd3663f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fe1bd35e9e7] /usr/src/ruby/vm_insnhelper.c:4499
 /usr/local/lib/libruby.so.3.0(vm_exec_core) insns.def:789
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fd75b804e14] /usr/src/ruby/vm.c:2172
-/usr/local/lib/libruby.so.3.0(rb_ec_exec_node+0xed) [0x7fd75b628c4d] /usr/src/ruby/eval.c:317
-/usr/local/lib/libruby.so.3.0(ruby_run_node+0x5a) [0x7fd75b62eb6a] /usr/src/ruby/eval.c:375
-/usr/local/bin/ruby(main+0x5f) [0x561fa432217f] /usr/src/ruby/main.c:50
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fe1bd364e14] /usr/src/ruby/vm.c:2172
+/usr/local/lib/libruby.so.3.0(rb_ec_exec_node+0xed) [0x7fe1bd188c4d] /usr/src/ruby/eval.c:317
+/usr/local/lib/libruby.so.3.0(ruby_run_node+0x5a) [0x7fe1bd18eb6a] /usr/src/ruby/eval.c:375
+/usr/local/bin/ruby(main+0x5f) [0x5636070d417f] /usr/src/ruby/main.c:50
 
 -- Other runtime information -----------------------------------------------
 
@@ -1631,323 +1633,324 @@ segv.rb:6:in `block in <top (required)>'
 
 * Process memory map:
 
-561fa4321000-561fa4322000 r--p 00000000 fe:01 691729                     /usr/local/bin/ruby
-561fa4322000-561fa4323000 r-xp 00001000 fe:01 691729                     /usr/local/bin/ruby
-561fa4323000-561fa4324000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
-561fa4324000-561fa4325000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
-561fa4325000-561fa4326000 rw-p 00003000 fe:01 691729                     /usr/local/bin/ruby
-561fa5aef000-561fa8625000 rw-p 00000000 00:00 0                          [heap]
-7fd750000000-7fd750021000 rw-p 00000000 00:00 0 
-7fd750021000-7fd754000000 ---p 00000000 00:00 0 
-7fd754fd7000-7fd7551c7000 r--s 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fd7551c7000-7fd756206000 rw-p 00000000 00:00 0 
-7fd756206000-7fd756e46000 r--s 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fd756e46000-7fd756e80000 r--p 00000000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fd756e80000-7fd756fa9000 r-xp 0003a000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fd756fa9000-7fd757009000 r--p 00163000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fd757009000-7fd757012000 r--p 001c2000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fd757012000-7fd757016000 rw-p 001cb000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fd757016000-7fd757018000 rw-p 00000000 00:00 0 
-7fd757018000-7fd757019000 ---p 00000000 00:00 0 
-7fd757019000-7fd7574dc000 rw-p 00000000 00:00 0 
-7fd7574dc000-7fd7574df000 r--p 00000000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fd7574df000-7fd7574ec000 r-xp 00003000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fd7574ec000-7fd7574ef000 r--p 00010000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fd7574ef000-7fd7574f0000 ---p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fd7574f0000-7fd7574f1000 r--p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fd7574f1000-7fd7574f2000 rw-p 00014000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fd7574f2000-7fd7575b3000 rw-p 00000000 00:00 0 
-7fd7575b3000-7fd7575b4000 r--p 00000000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fd7575b4000-7fd7575b6000 r-xp 00001000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fd7575b6000-7fd7575b7000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fd7575b7000-7fd7575b8000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fd7575b8000-7fd7575b9000 rw-p 00004000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fd7575b9000-7fd7575bb000 r--p 00000000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fd7575bb000-7fd7575c3000 r-xp 00002000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fd7575c3000-7fd7575c5000 r--p 0000a000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fd7575c5000-7fd7575c6000 r--p 0000b000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fd7575c6000-7fd7575c7000 rw-p 0000c000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fd7575c7000-7fd7575c9000 r--p 00000000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fd7575c9000-7fd7575cd000 r-xp 00002000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fd7575cd000-7fd7575ce000 r--p 00006000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fd7575ce000-7fd7575cf000 ---p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fd7575cf000-7fd7575d0000 r--p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fd7575d0000-7fd7575d1000 rw-p 00008000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fd7575d1000-7fd7575d4000 r--p 00000000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fd7575d4000-7fd7575e6000 r-xp 00003000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fd7575e6000-7fd7575ea000 r--p 00015000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fd7575ea000-7fd7575eb000 r--p 00018000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fd7575eb000-7fd7575ec000 rw-p 00019000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fd7575ec000-7fd7575f0000 r--p 00000000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fd7575f0000-7fd75761e000 r-xp 00004000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fd75761e000-7fd757626000 r--p 00032000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fd757626000-7fd757627000 r--p 00039000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fd757627000-7fd757628000 rw-p 0003a000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fd757628000-7fd757629000 rw-p 00000000 00:00 0 
-7fd757629000-7fd75762f000 r--p 00000000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fd75762f000-7fd757651000 r-xp 00006000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fd757651000-7fd757659000 r--p 00028000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fd757659000-7fd75765a000 r--p 0002f000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fd75765a000-7fd75765b000 rw-p 00030000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fd75765b000-7fd7576d3000 r--p 00000000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fd7576d3000-7fd75786e000 r-xp 00078000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fd75786e000-7fd7578ff000 r--p 00213000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fd7578ff000-7fd75792b000 r--p 002a3000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fd75792b000-7fd75792d000 rw-p 002cf000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fd75792d000-7fd757931000 rw-p 00000000 00:00 0 
-7fd757931000-7fd75794d000 r--p 00000000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fd75794d000-7fd75799c000 r-xp 0001c000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fd75799c000-7fd7579b6000 r--p 0006b000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fd7579b6000-7fd7579b7000 ---p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fd7579b7000-7fd7579c0000 r--p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fd7579c0000-7fd7579c4000 rw-p 0008e000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fd7579c4000-7fd7579d9000 r--p 00000000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fd7579d9000-7fd757a15000 r-xp 00015000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fd757a15000-7fd757a27000 r--p 00051000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fd757a27000-7fd757a29000 r--p 00062000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fd757a29000-7fd757a2b000 rw-p 00064000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fd757a2b000-7fd757a2c000 rw-p 00000000 00:00 0 
-7fd757a5e000-7fd757a94000 r--s 00000000 fe:01 691729                     /usr/local/bin/ruby
-7fd757a94000-7fd757a97000 r--p 00000000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fd757a97000-7fd757aa9000 r-xp 00003000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fd757aa9000-7fd757aad000 r--p 00015000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fd757aad000-7fd757aae000 r--p 00018000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fd757aae000-7fd757aaf000 rw-p 00019000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fd757aaf000-7fd757ab2000 r--p 00000000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fd757ab2000-7fd757aba000 r-xp 00003000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fd757aba000-7fd757abc000 r--p 0000b000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fd757abc000-7fd757abd000 ---p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fd757abd000-7fd757abe000 r--p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fd757abe000-7fd757abf000 rw-p 0000e000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fd757abf000-7fd757ac0000 r--p 00000000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fd757ac0000-7fd757ac2000 r-xp 00001000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fd757ac2000-7fd757ad7000 r--p 00003000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fd757ad7000-7fd757ad8000 r--p 00017000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fd757ad8000-7fd757ad9000 rw-p 00018000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fd757ad9000-7fd757adb000 r--p 00000000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fd757adb000-7fd757adf000 r-xp 00002000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fd757adf000-7fd757ae0000 r--p 00006000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fd757ae0000-7fd757ae1000 ---p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fd757ae1000-7fd757ae2000 r--p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fd757ae2000-7fd757ae3000 rw-p 00008000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fd757ae3000-7fd757ae4000 r--p 00000000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fd757ae4000-7fd757ae5000 r-xp 00001000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fd757ae5000-7fd757ae6000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fd757ae6000-7fd757ae7000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fd757ae7000-7fd757ae8000 rw-p 00003000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fd757ae8000-7fd757ae9000 r--p 00000000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fd757ae9000-7fd757aea000 r-xp 00001000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fd757aea000-7fd757aeb000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fd757aeb000-7fd757aec000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fd757aec000-7fd757aed000 rw-p 00003000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fd757aed000-7fd757aef000 r--p 00000000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fd757aef000-7fd757af2000 r-xp 00002000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fd757af2000-7fd757af4000 r--p 00005000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fd757af4000-7fd757af5000 r--p 00006000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fd757af5000-7fd757af6000 rw-p 00007000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fd757af6000-7fd757af7000 r--p 00000000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fd757af7000-7fd757af9000 r-xp 00001000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fd757af9000-7fd757afa000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fd757afa000-7fd757afb000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fd757afb000-7fd757afc000 rw-p 00004000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fd757afc000-7fd757afe000 r--p 00000000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fd757afe000-7fd757b04000 r-xp 00002000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fd757b04000-7fd757b06000 r--p 00008000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fd757b06000-7fd757b07000 r--p 00009000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fd757b07000-7fd757b08000 rw-p 0000a000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fd757b08000-7fd757b09000 r--p 00000000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fd757b09000-7fd757b0a000 r-xp 00001000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fd757b0a000-7fd757b0b000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fd757b0b000-7fd757b0c000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fd757b0c000-7fd757b0d000 rw-p 00003000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fd757b0d000-7fd757b0e000 r--p 00000000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fd757b0e000-7fd757b10000 r-xp 00001000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fd757b10000-7fd757b11000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fd757b11000-7fd757b12000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fd757b12000-7fd757b13000 rw-p 00004000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fd757b13000-7fd757b14000 r--p 00000000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fd757b14000-7fd757b15000 r-xp 00001000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fd757b15000-7fd757b16000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fd757b16000-7fd757b17000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fd757b17000-7fd757b18000 rw-p 00003000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fd757b18000-7fd757b19000 ---p 00000000 00:00 0 
-7fd757b19000-7fd757bba000 rw-p 00000000 00:00 0 
-7fd757bba000-7fd757bbb000 ---p 00000000 00:00 0 
-7fd757bbb000-7fd757c5c000 rw-p 00000000 00:00 0 
-7fd757c5c000-7fd757c5d000 ---p 00000000 00:00 0 
-7fd757c5d000-7fd757cfe000 rw-p 00000000 00:00 0 
-7fd757cfe000-7fd757cff000 ---p 00000000 00:00 0 
-7fd757cff000-7fd757da0000 rw-p 00000000 00:00 0 
-7fd757da0000-7fd757da1000 ---p 00000000 00:00 0 
-7fd757da1000-7fd757e42000 rw-p 00000000 00:00 0 
-7fd757e42000-7fd757e43000 ---p 00000000 00:00 0 
-7fd757e43000-7fd757ee4000 rw-p 00000000 00:00 0 
-7fd757ee4000-7fd757ee5000 ---p 00000000 00:00 0 
-7fd757ee5000-7fd757f86000 rw-p 00000000 00:00 0 
-7fd757f86000-7fd757f87000 ---p 00000000 00:00 0 
-7fd757f87000-7fd758028000 rw-p 00000000 00:00 0 
-7fd758028000-7fd758029000 ---p 00000000 00:00 0 
-7fd758029000-7fd7580ca000 rw-p 00000000 00:00 0 
-7fd7580ca000-7fd7580cb000 ---p 00000000 00:00 0 
-7fd7580cb000-7fd75816c000 rw-p 00000000 00:00 0 
-7fd75816c000-7fd75816d000 ---p 00000000 00:00 0 
-7fd75816d000-7fd75820e000 rw-p 00000000 00:00 0 
-7fd75820e000-7fd75820f000 ---p 00000000 00:00 0 
-7fd75820f000-7fd7582b0000 rw-p 00000000 00:00 0 
-7fd7582b0000-7fd7582b1000 ---p 00000000 00:00 0 
-7fd7582b1000-7fd758352000 rw-p 00000000 00:00 0 
-7fd758352000-7fd758353000 ---p 00000000 00:00 0 
-7fd758353000-7fd7583f4000 rw-p 00000000 00:00 0 
-7fd7583f4000-7fd7583f5000 ---p 00000000 00:00 0 
-7fd7583f5000-7fd758496000 rw-p 00000000 00:00 0 
-7fd758496000-7fd758497000 ---p 00000000 00:00 0 
-7fd758497000-7fd758538000 rw-p 00000000 00:00 0 
-7fd758538000-7fd758539000 ---p 00000000 00:00 0 
-7fd758539000-7fd7585da000 rw-p 00000000 00:00 0 
-7fd7585da000-7fd7585db000 ---p 00000000 00:00 0 
-7fd7585db000-7fd75867c000 rw-p 00000000 00:00 0 
-7fd75867c000-7fd75867d000 ---p 00000000 00:00 0 
-7fd75867d000-7fd75871e000 rw-p 00000000 00:00 0 
-7fd75871e000-7fd75871f000 ---p 00000000 00:00 0 
-7fd75871f000-7fd7587c0000 rw-p 00000000 00:00 0 
-7fd7587c0000-7fd7587c1000 ---p 00000000 00:00 0 
-7fd7587c1000-7fd758862000 rw-p 00000000 00:00 0 
-7fd758862000-7fd758863000 ---p 00000000 00:00 0 
-7fd758863000-7fd758904000 rw-p 00000000 00:00 0 
-7fd758904000-7fd758905000 ---p 00000000 00:00 0 
-7fd758905000-7fd7589a6000 rw-p 00000000 00:00 0 
-7fd7589a6000-7fd7589a7000 ---p 00000000 00:00 0 
-7fd7589a7000-7fd758a48000 rw-p 00000000 00:00 0 
-7fd758a48000-7fd758a49000 ---p 00000000 00:00 0 
-7fd758a49000-7fd758aea000 rw-p 00000000 00:00 0 
-7fd758aea000-7fd758aeb000 ---p 00000000 00:00 0 
-7fd758aeb000-7fd758b8c000 rw-p 00000000 00:00 0 
-7fd758b8c000-7fd758b8d000 ---p 00000000 00:00 0 
-7fd758b8d000-7fd758c2e000 rw-p 00000000 00:00 0 
-7fd758c2e000-7fd758c2f000 ---p 00000000 00:00 0 
-7fd758c2f000-7fd758cd0000 rw-p 00000000 00:00 0 
-7fd758cd0000-7fd758cd1000 ---p 00000000 00:00 0 
-7fd758cd1000-7fd758d72000 rw-p 00000000 00:00 0 
-7fd758d72000-7fd758d73000 ---p 00000000 00:00 0 
-7fd758d73000-7fd758e14000 rw-p 00000000 00:00 0 
-7fd758e14000-7fd758e15000 ---p 00000000 00:00 0 
-7fd758e15000-7fd758eb6000 rw-p 00000000 00:00 0 
-7fd758eb6000-7fd758eb7000 ---p 00000000 00:00 0 
-7fd758eb7000-7fd75af61000 rw-p 00000000 00:00 0 
-7fd75af61000-7fd75af63000 r--p 00000000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fd75af63000-7fd75af66000 r-xp 00002000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fd75af66000-7fd75af67000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fd75af67000-7fd75af68000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fd75af68000-7fd75af69000 rw-p 00006000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fd75af69000-7fd75af6a000 r--p 00000000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fd75af6a000-7fd75af6b000 r-xp 00001000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fd75af6b000-7fd75af6c000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fd75af6c000-7fd75af6d000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fd75af6d000-7fd75af6e000 rw-p 00003000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fd75af6e000-7fd75af6f000 r--p 00000000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fd75af6f000-7fd75af70000 r-xp 00001000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fd75af70000-7fd75af71000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fd75af71000-7fd75af72000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fd75af72000-7fd75af73000 rw-p 00003000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fd75af73000-7fd75af75000 r--p 00000000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fd75af75000-7fd75af77000 r-xp 00002000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fd75af77000-7fd75af78000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fd75af78000-7fd75af79000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fd75af79000-7fd75af7a000 rw-p 00005000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fd75af7a000-7fd75af7c000 r--p 00000000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fd75af7c000-7fd75af82000 r-xp 00002000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fd75af82000-7fd75af84000 r--p 00008000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fd75af84000-7fd75af85000 r--p 00009000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fd75af85000-7fd75af86000 rw-p 0000a000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fd75af86000-7fd75af88000 r--p 00000000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fd75af88000-7fd75afa2000 r-xp 00002000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fd75afa2000-7fd75afa6000 r--p 0001c000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fd75afa6000-7fd75afa7000 r--p 0001f000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fd75afa7000-7fd75afa8000 rw-p 00020000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fd75afa8000-7fd75afab000 r--p 00000000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fd75afab000-7fd75afaf000 r-xp 00003000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fd75afaf000-7fd75afb0000 r--p 00007000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fd75afb0000-7fd75afb1000 ---p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fd75afb1000-7fd75afb2000 r--p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fd75afb2000-7fd75afb3000 rw-p 00009000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fd75afb3000-7fd75afb5000 r--p 00000000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fd75afb5000-7fd75afb9000 r-xp 00002000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fd75afb9000-7fd75afbb000 r--p 00006000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fd75afbb000-7fd75afbc000 r--p 00007000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fd75afbc000-7fd75afbd000 rw-p 00008000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fd75afbd000-7fd75afbe000 r--p 00000000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fd75afbe000-7fd75afbf000 r-xp 00001000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fd75afbf000-7fd75afc0000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fd75afc0000-7fd75afc1000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fd75afc1000-7fd75afc2000 rw-p 00003000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fd75afc2000-7fd75b0c3000 rw-p 00000000 00:00 0 
-7fd75b0c3000-7fd75b0ca000 r--s 00000000 fe:01 5948201                    /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
-7fd75b0ca000-7fd75b0fc000 r--p 00000000 fe:01 5418520                    /usr/lib/locale/C.UTF-8/LC_CTYPE
-7fd75b0fc000-7fd75b0fe000 rw-p 00000000 00:00 0 
-7fd75b0fe000-7fd75b10d000 r--p 00000000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fd75b10d000-7fd75b1b4000 r-xp 0000f000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fd75b1b4000-7fd75b24b000 r--p 000b6000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fd75b24b000-7fd75b24c000 r--p 0014c000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fd75b24c000-7fd75b24d000 rw-p 0014d000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fd75b24d000-7fd75b24f000 r--p 00000000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fd75b24f000-7fd75b264000 r-xp 00002000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fd75b264000-7fd75b27e000 r--p 00017000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fd75b27e000-7fd75b27f000 r--p 00030000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fd75b27f000-7fd75b280000 rw-p 00031000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fd75b280000-7fd75b288000 rw-p 00000000 00:00 0 
-7fd75b288000-7fd75b289000 r--p 00000000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fd75b289000-7fd75b28b000 r-xp 00001000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fd75b28b000-7fd75b28c000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fd75b28c000-7fd75b28d000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fd75b28d000-7fd75b28e000 rw-p 00004000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fd75b28e000-7fd75b290000 rw-p 00000000 00:00 0 
-7fd75b290000-7fd75b29a000 r--p 00000000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fd75b29a000-7fd75b2fa000 r-xp 0000a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fd75b2fa000-7fd75b311000 r--p 0006a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fd75b311000-7fd75b312000 ---p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fd75b312000-7fd75b313000 r--p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fd75b313000-7fd75b314000 rw-p 00082000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fd75b314000-7fd75b317000 r--p 00000000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fd75b317000-7fd75b31b000 r-xp 00003000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fd75b31b000-7fd75b31c000 r--p 00007000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fd75b31c000-7fd75b31d000 ---p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fd75b31d000-7fd75b31e000 r--p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fd75b31e000-7fd75b31f000 rw-p 00009000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fd75b31f000-7fd75b326000 r--p 00000000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fd75b326000-7fd75b337000 r-xp 00007000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fd75b337000-7fd75b33c000 r--p 00018000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fd75b33c000-7fd75b33d000 r--p 0001c000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fd75b33d000-7fd75b33e000 rw-p 0001d000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fd75b33e000-7fd75b342000 rw-p 00000000 00:00 0 
-7fd75b342000-7fd75b344000 r--p 00000000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fd75b344000-7fd75b355000 r-xp 00002000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fd75b355000-7fd75b35b000 r--p 00013000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fd75b35b000-7fd75b35c000 ---p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fd75b35c000-7fd75b35d000 r--p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fd75b35d000-7fd75b35e000 rw-p 0001a000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fd75b35e000-7fd75b383000 r--p 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fd75b383000-7fd75b4fb000 r-xp 00025000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fd75b4fb000-7fd75b545000 r--p 0019d000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fd75b545000-7fd75b546000 ---p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fd75b546000-7fd75b549000 r--p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fd75b549000-7fd75b54c000 rw-p 001ea000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fd75b54c000-7fd75b550000 rw-p 00000000 00:00 0 
-7fd75b554000-7fd75b584000 r--p 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fd75b584000-7fd75b826000 r-xp 00030000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fd75b826000-7fd75b92b000 r--p 002d2000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fd75b92b000-7fd75b92c000 ---p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fd75b92c000-7fd75b933000 r--p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fd75b933000-7fd75b936000 rw-p 003de000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fd75b936000-7fd75b949000 rw-p 00000000 00:00 0 
-7fd75b949000-7fd75b94a000 r--p 00000000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fd75b94a000-7fd75b96d000 r-xp 00001000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fd75b96d000-7fd75b975000 r--p 00024000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fd75b976000-7fd75b977000 r--p 0002c000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fd75b977000-7fd75b978000 rw-p 0002d000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fd75b978000-7fd75b979000 rw-p 00000000 00:00 0 
-7fffc31b0000-7fffc39af000 rw-p 00000000 00:00 0                          [stack]
-7fffc39f9000-7fffc39fc000 r--p 00000000 00:00 0                          [vvar]
-7fffc39fc000-7fffc39fe000 r-xp 00000000 00:00 0                          [vdso]
+5636070d3000-5636070d4000 r--p 00000000 fe:01 691729                     /usr/local/bin/ruby
+5636070d4000-5636070d5000 r-xp 00001000 fe:01 691729                     /usr/local/bin/ruby
+5636070d5000-5636070d6000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
+5636070d6000-5636070d7000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
+5636070d7000-5636070d8000 rw-p 00003000 fe:01 691729                     /usr/local/bin/ruby
+563608117000-56360aded000 rw-p 00000000 00:00 0                          [heap]
+7fe1b2a73000-7fe1b2c63000 r--s 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe1b2c63000-7fe1b33c0000 rw-p 00000000 00:00 0 
+7fe1b33c0000-7fe1b4000000 r--s 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fe1b4000000-7fe1b4021000 rw-p 00000000 00:00 0 
+7fe1b4021000-7fe1b8000000 ---p 00000000 00:00 0 
+7fe1b80c4000-7fe1b89a6000 rw-p 00000000 00:00 0 
+7fe1b89a6000-7fe1b89e0000 r--p 00000000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fe1b89e0000-7fe1b8b09000 r-xp 0003a000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fe1b8b09000-7fe1b8b69000 r--p 00163000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fe1b8b69000-7fe1b8b72000 r--p 001c2000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fe1b8b72000-7fe1b8b76000 rw-p 001cb000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fe1b8b76000-7fe1b8b78000 rw-p 00000000 00:00 0 
+7fe1b8b78000-7fe1b8b79000 ---p 00000000 00:00 0 
+7fe1b8b79000-7fe1b903c000 rw-p 00000000 00:00 0 
+7fe1b903c000-7fe1b903f000 r--p 00000000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fe1b903f000-7fe1b904c000 r-xp 00003000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fe1b904c000-7fe1b904f000 r--p 00010000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fe1b904f000-7fe1b9050000 ---p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fe1b9050000-7fe1b9051000 r--p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fe1b9051000-7fe1b9052000 rw-p 00014000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fe1b9052000-7fe1b9113000 rw-p 00000000 00:00 0 
+7fe1b9113000-7fe1b9114000 r--p 00000000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fe1b9114000-7fe1b9116000 r-xp 00001000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fe1b9116000-7fe1b9117000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fe1b9117000-7fe1b9118000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fe1b9118000-7fe1b9119000 rw-p 00004000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fe1b9119000-7fe1b911b000 r--p 00000000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fe1b911b000-7fe1b9123000 r-xp 00002000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fe1b9123000-7fe1b9125000 r--p 0000a000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fe1b9125000-7fe1b9126000 r--p 0000b000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fe1b9126000-7fe1b9127000 rw-p 0000c000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fe1b9127000-7fe1b9129000 r--p 00000000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fe1b9129000-7fe1b912d000 r-xp 00002000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fe1b912d000-7fe1b912e000 r--p 00006000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fe1b912e000-7fe1b912f000 ---p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fe1b912f000-7fe1b9130000 r--p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fe1b9130000-7fe1b9131000 rw-p 00008000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fe1b9131000-7fe1b9134000 r--p 00000000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fe1b9134000-7fe1b9146000 r-xp 00003000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fe1b9146000-7fe1b914a000 r--p 00015000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fe1b914a000-7fe1b914b000 r--p 00018000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fe1b914b000-7fe1b914c000 rw-p 00019000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fe1b914c000-7fe1b9150000 r--p 00000000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fe1b9150000-7fe1b917e000 r-xp 00004000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fe1b917e000-7fe1b9186000 r--p 00032000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fe1b9186000-7fe1b9187000 r--p 00039000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fe1b9187000-7fe1b9188000 rw-p 0003a000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fe1b9188000-7fe1b9189000 rw-p 00000000 00:00 0 
+7fe1b9189000-7fe1b918f000 r--p 00000000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fe1b918f000-7fe1b91b1000 r-xp 00006000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fe1b91b1000-7fe1b91b9000 r--p 00028000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fe1b91b9000-7fe1b91ba000 r--p 0002f000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fe1b91ba000-7fe1b91bb000 rw-p 00030000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fe1b91bb000-7fe1b9233000 r--p 00000000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fe1b9233000-7fe1b93ce000 r-xp 00078000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fe1b93ce000-7fe1b945f000 r--p 00213000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fe1b945f000-7fe1b948b000 r--p 002a3000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fe1b948b000-7fe1b948d000 rw-p 002cf000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fe1b948d000-7fe1b9491000 rw-p 00000000 00:00 0 
+7fe1b9491000-7fe1b94ad000 r--p 00000000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fe1b94ad000-7fe1b94fc000 r-xp 0001c000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fe1b94fc000-7fe1b9516000 r--p 0006b000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fe1b9516000-7fe1b9517000 ---p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fe1b9517000-7fe1b9520000 r--p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fe1b9520000-7fe1b9524000 rw-p 0008e000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fe1b9524000-7fe1b9539000 r--p 00000000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fe1b9539000-7fe1b9575000 r-xp 00015000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fe1b9575000-7fe1b9587000 r--p 00051000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fe1b9587000-7fe1b9589000 r--p 00062000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fe1b9589000-7fe1b958b000 rw-p 00064000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fe1b958b000-7fe1b958c000 rw-p 00000000 00:00 0 
+7fe1b95be000-7fe1b95f4000 r--s 00000000 fe:01 691729                     /usr/local/bin/ruby
+7fe1b95f4000-7fe1b95f7000 r--p 00000000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fe1b95f7000-7fe1b9609000 r-xp 00003000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fe1b9609000-7fe1b960d000 r--p 00015000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fe1b960d000-7fe1b960e000 r--p 00018000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fe1b960e000-7fe1b960f000 rw-p 00019000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fe1b960f000-7fe1b9612000 r--p 00000000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fe1b9612000-7fe1b961a000 r-xp 00003000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fe1b961a000-7fe1b961c000 r--p 0000b000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fe1b961c000-7fe1b961d000 ---p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fe1b961d000-7fe1b961e000 r--p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fe1b961e000-7fe1b961f000 rw-p 0000e000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fe1b961f000-7fe1b9620000 r--p 00000000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fe1b9620000-7fe1b9622000 r-xp 00001000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fe1b9622000-7fe1b9637000 r--p 00003000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fe1b9637000-7fe1b9638000 r--p 00017000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fe1b9638000-7fe1b9639000 rw-p 00018000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fe1b9639000-7fe1b963b000 r--p 00000000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fe1b963b000-7fe1b963f000 r-xp 00002000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fe1b963f000-7fe1b9640000 r--p 00006000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fe1b9640000-7fe1b9641000 ---p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fe1b9641000-7fe1b9642000 r--p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fe1b9642000-7fe1b9643000 rw-p 00008000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fe1b9643000-7fe1b9644000 r--p 00000000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fe1b9644000-7fe1b9645000 r-xp 00001000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fe1b9645000-7fe1b9646000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fe1b9646000-7fe1b9647000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fe1b9647000-7fe1b9648000 rw-p 00003000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fe1b9648000-7fe1b9649000 r--p 00000000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fe1b9649000-7fe1b964a000 r-xp 00001000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fe1b964a000-7fe1b964b000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fe1b964b000-7fe1b964c000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fe1b964c000-7fe1b964d000 rw-p 00003000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fe1b964d000-7fe1b964f000 r--p 00000000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fe1b964f000-7fe1b9652000 r-xp 00002000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fe1b9652000-7fe1b9654000 r--p 00005000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fe1b9654000-7fe1b9655000 r--p 00006000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fe1b9655000-7fe1b9656000 rw-p 00007000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fe1b9656000-7fe1b9657000 r--p 00000000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fe1b9657000-7fe1b9659000 r-xp 00001000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fe1b9659000-7fe1b965a000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fe1b965a000-7fe1b965b000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fe1b965b000-7fe1b965c000 rw-p 00004000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fe1b965c000-7fe1b965e000 r--p 00000000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fe1b965e000-7fe1b9664000 r-xp 00002000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fe1b9664000-7fe1b9666000 r--p 00008000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fe1b9666000-7fe1b9667000 r--p 00009000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fe1b9667000-7fe1b9668000 rw-p 0000a000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fe1b9668000-7fe1b9669000 r--p 00000000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fe1b9669000-7fe1b966a000 r-xp 00001000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fe1b966a000-7fe1b966b000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fe1b966b000-7fe1b966c000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fe1b966c000-7fe1b966d000 rw-p 00003000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fe1b966d000-7fe1b966e000 r--p 00000000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fe1b966e000-7fe1b9670000 r-xp 00001000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fe1b9670000-7fe1b9671000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fe1b9671000-7fe1b9672000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fe1b9672000-7fe1b9673000 rw-p 00004000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fe1b9673000-7fe1b9674000 r--p 00000000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fe1b9674000-7fe1b9675000 r-xp 00001000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fe1b9675000-7fe1b9676000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fe1b9676000-7fe1b9677000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fe1b9677000-7fe1b9678000 rw-p 00003000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fe1b9678000-7fe1b9679000 ---p 00000000 00:00 0 
+7fe1b9679000-7fe1b971a000 rw-p 00000000 00:00 0 
+7fe1b971a000-7fe1b971b000 ---p 00000000 00:00 0 
+7fe1b971b000-7fe1b97bc000 rw-p 00000000 00:00 0 
+7fe1b97bc000-7fe1b97bd000 ---p 00000000 00:00 0 
+7fe1b97bd000-7fe1b985e000 rw-p 00000000 00:00 0 
+7fe1b985e000-7fe1b985f000 ---p 00000000 00:00 0 
+7fe1b985f000-7fe1b9900000 rw-p 00000000 00:00 0 
+7fe1b9900000-7fe1b9901000 ---p 00000000 00:00 0 
+7fe1b9901000-7fe1b99a2000 rw-p 00000000 00:00 0 
+7fe1b99a2000-7fe1b99a3000 ---p 00000000 00:00 0 
+7fe1b99a3000-7fe1b9a44000 rw-p 00000000 00:00 0 
+7fe1b9a44000-7fe1b9a45000 ---p 00000000 00:00 0 
+7fe1b9a45000-7fe1b9ae6000 rw-p 00000000 00:00 0 
+7fe1b9ae6000-7fe1b9ae7000 ---p 00000000 00:00 0 
+7fe1b9ae7000-7fe1b9b88000 rw-p 00000000 00:00 0 
+7fe1b9b88000-7fe1b9b89000 ---p 00000000 00:00 0 
+7fe1b9b89000-7fe1b9c2a000 rw-p 00000000 00:00 0 
+7fe1b9c2a000-7fe1b9c2b000 ---p 00000000 00:00 0 
+7fe1b9c2b000-7fe1b9ccc000 rw-p 00000000 00:00 0 
+7fe1b9ccc000-7fe1b9ccd000 ---p 00000000 00:00 0 
+7fe1b9ccd000-7fe1b9d6e000 rw-p 00000000 00:00 0 
+7fe1b9d6e000-7fe1b9d6f000 ---p 00000000 00:00 0 
+7fe1b9d6f000-7fe1b9e10000 rw-p 00000000 00:00 0 
+7fe1b9e10000-7fe1b9e11000 ---p 00000000 00:00 0 
+7fe1b9e11000-7fe1b9eb2000 rw-p 00000000 00:00 0 
+7fe1b9eb2000-7fe1b9eb3000 ---p 00000000 00:00 0 
+7fe1b9eb3000-7fe1b9f54000 rw-p 00000000 00:00 0 
+7fe1b9f54000-7fe1b9f55000 ---p 00000000 00:00 0 
+7fe1b9f55000-7fe1b9ff6000 rw-p 00000000 00:00 0 
+7fe1b9ff6000-7fe1b9ff7000 ---p 00000000 00:00 0 
+7fe1b9ff7000-7fe1ba098000 rw-p 00000000 00:00 0 
+7fe1ba098000-7fe1ba099000 ---p 00000000 00:00 0 
+7fe1ba099000-7fe1ba13a000 rw-p 00000000 00:00 0 
+7fe1ba13a000-7fe1ba13b000 ---p 00000000 00:00 0 
+7fe1ba13b000-7fe1ba1dc000 rw-p 00000000 00:00 0 
+7fe1ba1dc000-7fe1ba1dd000 ---p 00000000 00:00 0 
+7fe1ba1dd000-7fe1ba27e000 rw-p 00000000 00:00 0 
+7fe1ba27e000-7fe1ba27f000 ---p 00000000 00:00 0 
+7fe1ba27f000-7fe1ba320000 rw-p 00000000 00:00 0 
+7fe1ba320000-7fe1ba321000 ---p 00000000 00:00 0 
+7fe1ba321000-7fe1ba3c2000 rw-p 00000000 00:00 0 
+7fe1ba3c2000-7fe1ba3c3000 ---p 00000000 00:00 0 
+7fe1ba3c3000-7fe1ba464000 rw-p 00000000 00:00 0 
+7fe1ba464000-7fe1ba465000 ---p 00000000 00:00 0 
+7fe1ba465000-7fe1ba506000 rw-p 00000000 00:00 0 
+7fe1ba506000-7fe1ba507000 ---p 00000000 00:00 0 
+7fe1ba507000-7fe1ba5a8000 rw-p 00000000 00:00 0 
+7fe1ba5a8000-7fe1ba5a9000 ---p 00000000 00:00 0 
+7fe1ba5a9000-7fe1ba64a000 rw-p 00000000 00:00 0 
+7fe1ba64a000-7fe1ba64b000 ---p 00000000 00:00 0 
+7fe1ba64b000-7fe1ba6ec000 rw-p 00000000 00:00 0 
+7fe1ba6ec000-7fe1ba6ed000 ---p 00000000 00:00 0 
+7fe1ba6ed000-7fe1ba78e000 rw-p 00000000 00:00 0 
+7fe1ba78e000-7fe1ba78f000 ---p 00000000 00:00 0 
+7fe1ba78f000-7fe1ba830000 rw-p 00000000 00:00 0 
+7fe1ba830000-7fe1ba831000 ---p 00000000 00:00 0 
+7fe1ba831000-7fe1ba8d2000 rw-p 00000000 00:00 0 
+7fe1ba8d2000-7fe1ba8d3000 ---p 00000000 00:00 0 
+7fe1ba8d3000-7fe1ba974000 rw-p 00000000 00:00 0 
+7fe1ba974000-7fe1ba975000 ---p 00000000 00:00 0 
+7fe1ba975000-7fe1baa16000 rw-p 00000000 00:00 0 
+7fe1baa16000-7fe1baa17000 ---p 00000000 00:00 0 
+7fe1baa17000-7fe1bcac1000 rw-p 00000000 00:00 0 
+7fe1bcac1000-7fe1bcac3000 r--p 00000000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fe1bcac3000-7fe1bcac6000 r-xp 00002000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fe1bcac6000-7fe1bcac7000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fe1bcac7000-7fe1bcac8000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fe1bcac8000-7fe1bcac9000 rw-p 00006000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fe1bcac9000-7fe1bcaca000 r--p 00000000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fe1bcaca000-7fe1bcacb000 r-xp 00001000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fe1bcacb000-7fe1bcacc000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fe1bcacc000-7fe1bcacd000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fe1bcacd000-7fe1bcace000 rw-p 00003000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fe1bcace000-7fe1bcacf000 r--p 00000000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fe1bcacf000-7fe1bcad0000 r-xp 00001000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fe1bcad0000-7fe1bcad1000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fe1bcad1000-7fe1bcad2000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fe1bcad2000-7fe1bcad3000 rw-p 00003000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fe1bcad3000-7fe1bcad5000 r--p 00000000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fe1bcad5000-7fe1bcad7000 r-xp 00002000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fe1bcad7000-7fe1bcad8000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fe1bcad8000-7fe1bcad9000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fe1bcad9000-7fe1bcada000 rw-p 00005000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fe1bcada000-7fe1bcadc000 r--p 00000000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fe1bcadc000-7fe1bcae2000 r-xp 00002000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fe1bcae2000-7fe1bcae4000 r--p 00008000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fe1bcae4000-7fe1bcae5000 r--p 00009000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fe1bcae5000-7fe1bcae6000 rw-p 0000a000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fe1bcae6000-7fe1bcae8000 r--p 00000000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fe1bcae8000-7fe1bcb02000 r-xp 00002000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fe1bcb02000-7fe1bcb06000 r--p 0001c000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fe1bcb06000-7fe1bcb07000 r--p 0001f000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fe1bcb07000-7fe1bcb08000 rw-p 00020000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fe1bcb08000-7fe1bcb0b000 r--p 00000000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fe1bcb0b000-7fe1bcb0f000 r-xp 00003000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fe1bcb0f000-7fe1bcb10000 r--p 00007000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fe1bcb10000-7fe1bcb11000 ---p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fe1bcb11000-7fe1bcb12000 r--p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fe1bcb12000-7fe1bcb13000 rw-p 00009000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fe1bcb13000-7fe1bcb15000 r--p 00000000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fe1bcb15000-7fe1bcb19000 r-xp 00002000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fe1bcb19000-7fe1bcb1b000 r--p 00006000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fe1bcb1b000-7fe1bcb1c000 r--p 00007000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fe1bcb1c000-7fe1bcb1d000 rw-p 00008000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fe1bcb1d000-7fe1bcb1e000 r--p 00000000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fe1bcb1e000-7fe1bcb1f000 r-xp 00001000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fe1bcb1f000-7fe1bcb20000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fe1bcb20000-7fe1bcb21000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fe1bcb21000-7fe1bcb22000 rw-p 00003000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fe1bcb22000-7fe1bcc23000 rw-p 00000000 00:00 0 
+7fe1bcc23000-7fe1bcc2a000 r--s 00000000 fe:01 5948201                    /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7fe1bcc2a000-7fe1bcc5c000 r--p 00000000 fe:01 5418520                    /usr/lib/locale/C.UTF-8/LC_CTYPE
+7fe1bcc5c000-7fe1bcc5e000 rw-p 00000000 00:00 0 
+7fe1bcc5e000-7fe1bcc6d000 r--p 00000000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fe1bcc6d000-7fe1bcd14000 r-xp 0000f000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fe1bcd14000-7fe1bcdab000 r--p 000b6000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fe1bcdab000-7fe1bcdac000 r--p 0014c000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fe1bcdac000-7fe1bcdad000 rw-p 0014d000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fe1bcdad000-7fe1bcdaf000 r--p 00000000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fe1bcdaf000-7fe1bcdc4000 r-xp 00002000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fe1bcdc4000-7fe1bcdde000 r--p 00017000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fe1bcdde000-7fe1bcddf000 r--p 00030000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fe1bcddf000-7fe1bcde0000 rw-p 00031000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fe1bcde0000-7fe1bcde8000 rw-p 00000000 00:00 0 
+7fe1bcde8000-7fe1bcde9000 r--p 00000000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fe1bcde9000-7fe1bcdeb000 r-xp 00001000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fe1bcdeb000-7fe1bcdec000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fe1bcdec000-7fe1bcded000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fe1bcded000-7fe1bcdee000 rw-p 00004000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fe1bcdee000-7fe1bcdf0000 rw-p 00000000 00:00 0 
+7fe1bcdf0000-7fe1bcdfa000 r--p 00000000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fe1bcdfa000-7fe1bce5a000 r-xp 0000a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fe1bce5a000-7fe1bce71000 r--p 0006a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fe1bce71000-7fe1bce72000 ---p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fe1bce72000-7fe1bce73000 r--p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fe1bce73000-7fe1bce74000 rw-p 00082000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fe1bce74000-7fe1bce77000 r--p 00000000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fe1bce77000-7fe1bce7b000 r-xp 00003000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fe1bce7b000-7fe1bce7c000 r--p 00007000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fe1bce7c000-7fe1bce7d000 ---p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fe1bce7d000-7fe1bce7e000 r--p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fe1bce7e000-7fe1bce7f000 rw-p 00009000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fe1bce7f000-7fe1bce86000 r--p 00000000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fe1bce86000-7fe1bce97000 r-xp 00007000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fe1bce97000-7fe1bce9c000 r--p 00018000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fe1bce9c000-7fe1bce9d000 r--p 0001c000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fe1bce9d000-7fe1bce9e000 rw-p 0001d000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fe1bce9e000-7fe1bcea2000 rw-p 00000000 00:00 0 
+7fe1bcea2000-7fe1bcea4000 r--p 00000000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fe1bcea4000-7fe1bceb5000 r-xp 00002000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fe1bceb5000-7fe1bcebb000 r--p 00013000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fe1bcebb000-7fe1bcebc000 ---p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fe1bcebc000-7fe1bcebd000 r--p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fe1bcebd000-7fe1bcebe000 rw-p 0001a000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fe1bcebe000-7fe1bcee3000 r--p 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe1bcee3000-7fe1bd05b000 r-xp 00025000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe1bd05b000-7fe1bd0a5000 r--p 0019d000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe1bd0a5000-7fe1bd0a6000 ---p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe1bd0a6000-7fe1bd0a9000 r--p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe1bd0a9000-7fe1bd0ac000 rw-p 001ea000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe1bd0ac000-7fe1bd0b0000 rw-p 00000000 00:00 0 
+7fe1bd0b4000-7fe1bd0e4000 r--p 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fe1bd0e4000-7fe1bd386000 r-xp 00030000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fe1bd386000-7fe1bd48b000 r--p 002d2000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fe1bd48b000-7fe1bd48c000 ---p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fe1bd48c000-7fe1bd493000 r--p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fe1bd493000-7fe1bd496000 rw-p 003de000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fe1bd496000-7fe1bd4a9000 rw-p 00000000 00:00 0 
+7fe1bd4a9000-7fe1bd4aa000 r--p 00000000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe1bd4aa000-7fe1bd4cd000 r-xp 00001000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe1bd4cd000-7fe1bd4d5000 r--p 00024000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe1bd4d6000-7fe1bd4d7000 r--p 0002c000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe1bd4d7000-7fe1bd4d8000 rw-p 0002d000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe1bd4d8000-7fe1bd4d9000 rw-p 00000000 00:00 0 
+7ffd409e2000-7ffd411e1000 rw-p 00000000 00:00 0                          [stack]
+7ffd411f1000-7ffd411f4000 r--p 00000000 00:00 0                          [vvar]
+7ffd411f4000-7ffd411f6000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 
 
