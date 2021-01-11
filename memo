@@ -1,1422 +1,5308 @@
 + bin/rails runner segv.rb
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 1 times reloaded
-14.81802 MB
+13.580456 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 2 times reloaded
-16.703298 MB
+15.495014000000001 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 3 times reloaded
-12.676639999999999 MB
+17.40774 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 4 times reloaded
-14.560302 MB
+13.452933000000002 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 5 times reloaded
-16.443748 MB
+15.365827000000001 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 6 times reloaded
-18.327194 MB
+17.278553 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 7 times reloaded
-15.089699000000001 MB
+13.907767 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 8 times reloaded
-16.973257 MB
+15.820509 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 9 times reloaded
-14.358156000000001 MB
+17.733235 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 10 times reloaded
-16.241666000000002 MB
+14.951874 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 11 times reloaded
-18.125112 MB
+16.864664 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 12 times reloaded
-15.856452 MB
+18.77739 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 13 times reloaded
-17.743338 MB
+16.418431 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 14 times reloaded
-16.395985 MB
+18.331269 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 15 times reloaded
-12.374975000000001 MB
+16.925707000000003 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 16 times reloaded
-14.258421 MB
+12.38006 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 17 times reloaded
-16.141867 MB
+14.293018 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 18 times reloaded
-18.025313 MB
+16.205744 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 19 times reloaded
-14.292428000000001 MB
+18.118470000000002 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 20 times reloaded
-16.175938000000002 MB
+13.819708 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
+"---------"
+"/core/admin/index"
 nil
 21 times reloaded
-18.059384 MB
+15.732498 MB
+"---------"
+"/application/admin/index"
 "application_admin_index"
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/application/admin/index"
 nil
+"---------"
+"/core/admin/index"
 "core_admin_index"
-/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:317: [BUG] Segmentation fault at 0x00000000006e697d
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+22 times reloaded
+17.645224000000002 MB
+"---------"
+"/application/admin/index"
+"application_admin_index"
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/core/admin/index"
+"core_admin_index"
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+23 times reloaded
+14.231516 MB
+"---------"
+"/application/admin/index"
+"application_admin_index"
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/core/admin/index"
+"core_admin_index"
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+24 times reloaded
+16.144258 MB
+"---------"
+"/application/admin/index"
+"application_admin_index"
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/core/admin/index"
+"core_admin_index"
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+25 times reloaded
+18.056984 MB
+"---------"
+"/application/admin/index"
+"application_admin_index"
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/core/admin/index"
+"core_admin_index"
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+26 times reloaded
+15.048936 MB
+"---------"
+"/application/admin/index"
+"application_admin_index"
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/core/admin/index"
+"core_admin_index"
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+27 times reloaded
+16.961726 MB
+"---------"
+"/application/admin/index"
+"application_admin_index"
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/application/admin/index"
+nil
+"---------"
+"/core/admin/index"
+"core_admin_index"
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+"---------"
+"/core/admin/index"
+nil
+28 times reloaded
+18.874452 MB
+"---------"
+"/application/admin/index"
+"application_admin_index"
+/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:317: [BUG] Segmentation fault at 0x0000000000000010
 ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
 
 -- Control frame information -----------------------------------------------
 c:0069 p:---- s:0388 e:000387 CFUNC  :define_method
-c:0068 p:0007 s:0383 E:001850 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:317
+c:0068 p:0007 s:0383 E:001170 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:317
 c:0067 p:0117 s:0375 e:000374 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:115
 c:0066 p:0024 s:0365 e:000364 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:585
-c:0065 p:0174 s:0358 e:000357 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1834
+c:0065 p:0190 s:0358 e:000357 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1827
 c:0064 p:0033 s:0340 e:000339 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1445
-c:0063 p:0007 s:0331 e:000330 BLOCK  /app/engines/core/config/routes.rb:4
+c:0063 p:0007 s:0331 e:000330 BLOCK  /app/config/routes.rb:4
 c:0062 p:0003 s:0328 e:000327 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0061 p:0288 s:0325 e:000324 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901
 c:0060 p:0011 s:0316 e:000315 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0059 p:0022 s:0313 e:000312 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1776
 c:0058 p:0060 s:0308 e:000307 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969
 c:0057 p:0023 s:0301 e:000300 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1540
-c:0056 p:0007 s:0295 e:000294 BLOCK  /app/engines/core/config/routes.rb:3
+c:0056 p:0007 s:0295 e:000294 BLOCK  /app/config/routes.rb:3
 c:0055 p:0003 s:0292 e:000291 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0054 p:0288 s:0289 e:000288 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901
 c:0053 p:0011 s:0280 e:000279 BLOCK  /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970
 c:0052 p:0022 s:0277 e:000276 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1776
 c:0051 p:0060 s:0272 e:000271 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969
 c:0050 p:0023 s:0265 e:000264 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1540
-c:0049 p:0007 s:0259 e:000258 BLOCK  /app/engines/core/config/routes.rb:2 [FINISH]
+c:0049 p:0007 s:0259 e:000258 BLOCK  /app/config/routes.rb:2 [FINISH]
 c:0048 p:---- s:0256 e:000255 CFUNC  :instance_exec
 c:0047 p:0021 s:0252 e:000251 METHOD /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:427
 c:0046 p:0026 s:0246 e:000245 METHOD /app/engines/core/lib/blog/core/routes.rb:17 [FINISH]
@@ -1425,7 +5311,7 @@ c:0044 p:0024 s:0236 e:000235 METHOD /app/gems/railties-6.1.0/lib/rails/railtie.
 c:0043 p:0007 s:0229 e:000228 BLOCK  /app/engines/core/lib/blog/core/routes.rb:12 [FINISH]
 c:0042 p:---- s:0225 e:000224 CFUNC  :each
 c:0041 p:0032 s:0221 e:000220 METHOD /app/engines/core/lib/blog/core/routes.rb:12
-c:0040 p:0041 s:0216 E:001b20 TOP    /app/engines/core/config/routes.rb:88 [FINISH]
+c:0040 p:0041 s:0216 E:000210 TOP    /app/engines/core/config/routes.rb:88 [FINISH]
 c:0039 p:---- s:0213 e:000212 CFUNC  :load
 c:0038 p:0009 s:0207 e:000206 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/dependencies.rb:326
 c:0037 p:0068 s:0204 e:000203 METHOD /app/gems/activesupport-6.1.0/lib/active_support/dependencies.rb:299
@@ -1444,7 +5330,7 @@ c:0025 p:0010 s:0144 e:000143 BLOCK  /app/gems/activesupport-6.1.0/lib/active_su
 c:0024 p:0005 s:0141 e:000140 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:604 [FINISH]
 c:0023 p:---- s:0138 e:000137 CFUNC  :catch
 c:0022 p:0011 s:0133 e:000132 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:603
-c:0021 p:0040 s:0127 E:001dd8 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:199
+c:0021 p:0040 s:0127 E:0025d8 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:199
 c:0020 p:0007 s:0118 e:000117 BLOCK  /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:512 [FINISH]
 c:0019 p:---- s:0114 e:000113 CFUNC  :each
 c:0018 p:0006 s:0110 e:000109 METHOD /app/gems/activesupport-6.1.0/lib/active_support/callbacks.rb:512
@@ -1463,8 +5349,8 @@ c:0006 p:0045 s:0036 e:000035 METHOD /app/gems/railties-6.1.0/lib/rails/command/
 c:0005 p:0153 s:0029 e:000028 METHOD /app/gems/railties-6.1.0/lib/rails/command.rb:50
 c:0004 p:0063 s:0017 e:000016 TOP    /app/gems/railties-6.1.0/lib/rails/commands.rb:18 [FINISH]
 c:0003 p:---- s:0012 e:000011 CFUNC  :require
-c:0002 p:0051 s:0007 E:000928 EVAL   bin/rails:11 [FINISH]
-c:0001 p:0000 s:0003 E:000380 (none) [FINISH]
+c:0002 p:0051 s:0007 E:0007c8 EVAL   bin/rails:11 [FINISH]
+c:0001 p:0000 s:0003 E:001c30 (none) [FINISH]
 
 -- Ruby level backtrace information ----------------------------------------
 bin/rails:11:in `<main>'
@@ -1514,148 +5400,148 @@ segv.rb:6:in `block in <top (required)>'
 /app/engines/core/lib/blog/core/routes.rb:17:in `eval_block'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:427:in `eval_block'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:427:in `instance_exec'
-/app/engines/core/config/routes.rb:2:in `block in <top (required)>'
+/app/config/routes.rb:2:in `block in <top (required)>'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1540:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1776:in `path_scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block in namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901:in `scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block (2 levels) in namespace'
-/app/engines/core/config/routes.rb:3:in `block (2 levels) in <top (required)>'
+/app/config/routes.rb:3:in `block (2 levels) in <top (required)>'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1540:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:969:in `namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1776:in `path_scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block in namespace'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:901:in `scope'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:970:in `block (2 levels) in namespace'
-/app/engines/core/config/routes.rb:4:in `block (3 levels) in <top (required)>'
+/app/config/routes.rb:4:in `block (3 levels) in <top (required)>'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1445:in `resources'
-/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1834:in `add_route'
+/app/gems/actionpack-6.1.0/lib/action_dispatch/routing/mapper.rb:1827:in `add_route'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:585:in `add_route'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:115:in `add'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:317:in `define_url_helper'
 /app/gems/actionpack-6.1.0/lib/action_dispatch/routing/route_set.rb:317:in `define_method'
 
 -- Machine register context ------------------------------------------------
- RIP: 0x00007fddbf9e0f84 RBP: 0x0000000000055330 RSP: 0x00007ffe69e90c70
- RAX: 0x00000000006e696d RBX: 0x0000558917474960 RCX: 0x0000000000000003
- RDX: 0x00007ffe69e90c70 RDI: 0x0000558917684800 RSI: 0x0000000000000001
-  R8: 0x0000000000005533  R9: 0x0000000000000003 R10: 0x0000000000000006
- R11: 0x0000000000000007 R12: 0x0000000000055330 R13: 0x00007ffe69e90c70
- R14: 0x0000558917467620 R15: 0x0000558917dfaf10 EFL: 0x0000000000010206
+ RIP: 0x00007fed8d92bf84 RBP: 0x0000000000055310 RSP: 0x00007ffc5deaf280
+ RAX: 0x0000000000000000 RBX: 0x0000561b94bc39e0 RCX: 0x0000000000000001
+ RDX: 0x00007ffc5deaf280 RDI: 0x0000561b95299750 RSI: 0x0000000000000001
+  R8: 0x0000000000005531  R9: 0x0000000000000003 R10: 0x0000000000000007
+ R11: 0x0000000000000007 R12: 0x0000000000055310 R13: 0x00007ffc5deaf280
+ R14: 0x0000561b94c1ac90 R15: 0x0000561b9573d060 EFL: 0x0000000000010202
 
 -- C level backtrace information -------------------------------------------
-/usr/local/lib/libruby.so.3.0(rb_print_backtrace+0x11) [0x7fddbfa0be53] /usr/src/ruby/vm_dump.c:758
+/usr/local/lib/libruby.so.3.0(rb_print_backtrace+0x11) [0x7fed8d956e53] /usr/src/ruby/vm_dump.c:758
 /usr/local/lib/libruby.so.3.0(rb_vm_bugreport) /usr/src/ruby/vm_dump.c:998
-/usr/local/lib/libruby.so.3.0(rb_bug_for_fatal_signal+0x162) [0x7fddbf816dc2] /usr/src/ruby/error.c:786
-/usr/local/lib/libruby.so.3.0(sigsegv+0x4d) [0x7fddbf96302d] /usr/src/ruby/signal.c:960
-/lib/x86_64-linux-gnu/libc.so.6(0x7fddbf597210) [0x7fddbf597210]
-/usr/local/lib/libruby.so.3.0(lookup_method_table+0x0) [0x7fddbf9e0f84] /usr/src/ruby/vm_method.c:968
+/usr/local/lib/libruby.so.3.0(rb_bug_for_fatal_signal+0x162) [0x7fed8d761dc2] /usr/src/ruby/error.c:786
+/usr/local/lib/libruby.so.3.0(sigsegv+0x4d) [0x7fed8d8ae02d] /usr/src/ruby/signal.c:960
+/lib/x86_64-linux-gnu/libc.so.6(0x7fed8d4e2210) [0x7fed8d4e2210]
+/usr/local/lib/libruby.so.3.0(lookup_method_table+0x0) [0x7fed8d92bf84] /usr/src/ruby/vm_method.c:968
 /usr/local/lib/libruby.so.3.0(search_method) /usr/src/ruby/vm_method.c:970
 /usr/local/lib/libruby.so.3.0(complemented_callable_method_entry) /usr/src/ruby/vm_method.c:1050
 /usr/local/lib/libruby.so.3.0(clear_method_cache_by_id_in_class) /usr/src/ruby/vm_method.c:163
 /usr/local/lib/libruby.so.3.0(clear_method_cache_by_id_in_class) /usr/src/ruby/vm_method.c:136
 /usr/local/lib/libruby.so.3.0(clear_iclass_method_cache_by_id) /usr/src/ruby/vm_method.c:213
-/usr/local/lib/libruby.so.3.0(rb_class_foreach_subclass+0x2d) [0x7fddbf7aac7d] /usr/src/ruby/class.c:133
-/usr/local/lib/libruby.so.3.0(rb_method_entry_make+0x213) [0x7fddbf9fedd3] /usr/src/ruby/vm_method.c:834
-/usr/local/lib/libruby.so.3.0(rb_add_method+0x2a) [0x7fddbf9ff2ba] /usr/src/ruby/vm_method.c:891
-/usr/local/lib/libruby.so.3.0(rb_mod_define_method+0x1a3) [0x7fddbf903e83] /usr/src/ruby/proc.c:2236
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fddbfa062b1] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(vm_call0_body+0x9) [0x7fddbf9fd1a3] /usr/src/ruby/vm_eval.c:140
+/usr/local/lib/libruby.so.3.0(rb_class_foreach_subclass+0x2d) [0x7fed8d6f5c7d] /usr/src/ruby/class.c:133
+/usr/local/lib/libruby.so.3.0(rb_method_entry_make+0x213) [0x7fed8d949dd3] /usr/src/ruby/vm_method.c:834
+/usr/local/lib/libruby.so.3.0(rb_add_method+0x2a) [0x7fed8d94a2ba] /usr/src/ruby/vm_method.c:891
+/usr/local/lib/libruby.so.3.0(rb_mod_define_method+0x1a3) [0x7fed8d84ee83] /usr/src/ruby/proc.c:2236
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fed8d9512b1] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(vm_call0_body+0x9) [0x7fed8d9481a3] /usr/src/ruby/vm_eval.c:140
 /usr/local/lib/libruby.so.3.0(rb_vm_call0) /usr/src/ruby/vm_eval.c:57
-/usr/local/lib/libruby.so.3.0(send_internal+0xf6) [0x7fddbf9fe316] /usr/src/ruby/vm_eval.c:1085
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fddbf9fbd3e] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fddbf781e9c] /usr/src/ruby/array.c:2523
+/usr/local/lib/libruby.so.3.0(send_internal+0xf6) [0x7fed8d949316] /usr/src/ruby/vm_eval.c:1085
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fed8d946d3e] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fed8d6cce9c] /usr/src/ruby/array.c:2523
 /usr/local/lib/libruby.so.3.0(RB_FL_ANY_RAW) /usr/src/ruby/include/ruby/internal/fl_type.h:258
 /usr/local/lib/libruby.so.3.0(rb_array_len) /usr/src/ruby/include/ruby/internal/core/rarray.h:135
 /usr/local/lib/libruby.so.3.0(rb_ary_each) /usr/src/ruby/array.c:2522
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fddbf878e99] /usr/src/ruby/load.c:594
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fed8d7c3e99] /usr/src/ruby/load.c:594
 /usr/local/lib/libruby.so.3.0(rb_load_internal) /usr/src/ruby/load.c:654
 /usr/local/lib/libruby.so.3.0(rb_f_load) /usr/src/ruby/load.c:726
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x8) [0x7fddbf9f46e2] /usr/src/ruby/vm_insnhelper.c:4504
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x8) [0x7fed8d93f6e2] /usr/src/ruby/vm_insnhelper.c:4504
 /usr/local/lib/libruby.so.3.0(vm_exec_core) insns.def:876
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fddbf9fbd3e] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fddbf781e9c] /usr/src/ruby/array.c:2523
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fed8d946d3e] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fed8d6cce9c] /usr/src/ruby/array.c:2523
 /usr/local/lib/libruby.so.3.0(RB_FL_ANY_RAW) /usr/src/ruby/include/ruby/internal/fl_type.h:258
 /usr/local/lib/libruby.so.3.0(rb_array_len) /usr/src/ruby/include/ruby/internal/core/rarray.h:135
 /usr/local/lib/libruby.so.3.0(rb_ary_each) /usr/src/ruby/array.c:2522
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fddbfa062b1] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fddbf9f8d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fddbf9f93f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_call_symbol+0x174) [0x7fddbf9f9a94] /usr/src/ruby/vm_insnhelper.c:3112
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(catch_i+0x2af) [0x7fddbf9fba0f] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(vm_catch_protect+0xf2) [0x7fddbf9ea8a2] /usr/src/ruby/vm_eval.c:2245
-/usr/local/lib/libruby.so.3.0(rb_catch_obj+0x50) [0x7fddbf9eaa60] /usr/src/ruby/vm_eval.c:2271
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fddbf9fbd3e] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fddbf781e9c] /usr/src/ruby/array.c:2523
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(yield_under+0x4a1) [0x7fed8d9512b1] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fed8d943d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fed8d9443f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_call_symbol+0x174) [0x7fed8d944a94] /usr/src/ruby/vm_insnhelper.c:3112
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(catch_i+0x2af) [0x7fed8d946a0f] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(vm_catch_protect+0xf2) [0x7fed8d9358a2] /usr/src/ruby/vm_eval.c:2245
+/usr/local/lib/libruby.so.3.0(rb_catch_obj+0x50) [0x7fed8d935a60] /usr/src/ruby/vm_eval.c:2271
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield+0x25e) [0x7fed8d946d3e] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(RB_FL_TEST_RAW+0x0) [0x7fed8d6cce9c] /usr/src/ruby/array.c:2523
 /usr/local/lib/libruby.so.3.0(RB_FL_ANY_RAW) /usr/src/ruby/include/ruby/internal/fl_type.h:258
 /usr/local/lib/libruby.so.3.0(rb_array_len) /usr/src/ruby/include/ruby/internal/core/rarray.h:135
 /usr/local/lib/libruby.so.3.0(rb_ary_each) /usr/src/ruby/array.c:2522
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(rb_yield_1+0x2af) [0x7fddbf9fb68f] /usr/src/ruby/vm.c:1263
-/usr/local/lib/libruby.so.3.0(int_dotimes+0x5c) [0x7fddbf8b743c] /usr/src/ruby/numeric.c:5125
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fddbf9f8d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fddbf9f93f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fddbf9e8753] /usr/src/ruby/vm_insnhelper.c:4499
-/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fddbf9f1a5f] insns.def:770
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fddbf9f755b] /usr/src/ruby/vm.c:2163
-/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fddbf878e99] /usr/src/ruby/load.c:594
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(rb_yield_1+0x2af) [0x7fed8d94668f] /usr/src/ruby/vm.c:1263
+/usr/local/lib/libruby.so.3.0(int_dotimes+0x5c) [0x7fed8d80243c] /usr/src/ruby/numeric.c:5125
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fed8d943d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fed8d9443f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_sendish+0x133) [0x7fed8d933753] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_exec_core+0x1ef) [0x7fed8d93ca5f] insns.def:770
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0x19b) [0x7fed8d94255b] /usr/src/ruby/vm.c:2163
+/usr/local/lib/libruby.so.3.0(raise_load_if_failed+0x0) [0x7fed8d7c3e99] /usr/src/ruby/load.c:594
 /usr/local/lib/libruby.so.3.0(rb_load_internal) /usr/src/ruby/load.c:654
 /usr/local/lib/libruby.so.3.0(rb_f_load) /usr/src/ruby/load.c:726
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fddbf9f8d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fddbf9f93f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fddbf9f19e7] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fed8d943d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fed8d9443f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fed8d93c9e7] /usr/src/ruby/vm_insnhelper.c:4499
 /usr/local/lib/libruby.so.3.0(vm_exec_core) insns.def:789
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fddbf9f7e14] /usr/src/ruby/vm.c:2172
-/usr/local/lib/libruby.so.3.0(load_iseq_eval+0x9) [0x7fddbf87a780] /usr/src/ruby/load.c:594
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fed8d942e14] /usr/src/ruby/vm.c:2172
+/usr/local/lib/libruby.so.3.0(load_iseq_eval+0x9) [0x7fed8d7c5780] /usr/src/ruby/load.c:594
 /usr/local/lib/libruby.so.3.0(require_internal) /usr/src/ruby/load.c:1065
-/usr/local/lib/libruby.so.3.0(rb_require_string+0x30) [0x7fddbf87b1c0] /usr/src/ruby/load.c:1142
-/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fddbf9e443b] /usr/src/ruby/vm_insnhelper.c:2898
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fddbf9f8d19] /usr/src/ruby/vm_insnhelper.c:3388
-/usr/local/lib/libruby.so.3.0(vm_call_alias+0x86) [0x7fddbf9fa2e6] /usr/src/ruby/vm_insnhelper.c:3038
-/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x249) [0x7fddbf9f8ee9] /usr/src/ruby/vm_insnhelper.c:3418
-/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fddbf9f93f4] /usr/src/ruby/vm_insnhelper.c:3506
-/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fddbf9f19e7] /usr/src/ruby/vm_insnhelper.c:4499
+/usr/local/lib/libruby.so.3.0(rb_require_string+0x30) [0x7fed8d7c61c0] /usr/src/ruby/load.c:1142
+/usr/local/lib/libruby.so.3.0(vm_call_cfunc_with_frame+0x11b) [0x7fed8d92f43b] /usr/src/ruby/vm_insnhelper.c:2898
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x79) [0x7fed8d943d19] /usr/src/ruby/vm_insnhelper.c:3388
+/usr/local/lib/libruby.so.3.0(vm_call_alias+0x86) [0x7fed8d9452e6] /usr/src/ruby/vm_insnhelper.c:3038
+/usr/local/lib/libruby.so.3.0(vm_call_method_each_type+0x249) [0x7fed8d943ee9] /usr/src/ruby/vm_insnhelper.c:3418
+/usr/local/lib/libruby.so.3.0(vm_call_method+0xb4) [0x7fed8d9443f4] /usr/src/ruby/vm_insnhelper.c:3506
+/usr/local/lib/libruby.so.3.0(vm_sendish+0xe) [0x7fed8d93c9e7] /usr/src/ruby/vm_insnhelper.c:4499
 /usr/local/lib/libruby.so.3.0(vm_exec_core) insns.def:789
-/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fddbf9f7e14] /usr/src/ruby/vm.c:2172
-/usr/local/lib/libruby.so.3.0(rb_ec_exec_node+0xed) [0x7fddbf81bc4d] /usr/src/ruby/eval.c:317
-/usr/local/lib/libruby.so.3.0(ruby_run_node+0x5a) [0x7fddbf821b6a] /usr/src/ruby/eval.c:375
-/usr/local/bin/ruby(main+0x5f) [0x55891458b17f] /usr/src/ruby/main.c:50
+/usr/local/lib/libruby.so.3.0(rb_vm_exec+0xa54) [0x7fed8d942e14] /usr/src/ruby/vm.c:2172
+/usr/local/lib/libruby.so.3.0(rb_ec_exec_node+0xed) [0x7fed8d766c4d] /usr/src/ruby/eval.c:317
+/usr/local/lib/libruby.so.3.0(ruby_run_node+0x5a) [0x7fed8d76cb6a] /usr/src/ruby/eval.c:375
+/usr/local/bin/ruby(main+0x5f) [0x561b91f8417f] /usr/src/ruby/main.c:50
 
 -- Other runtime information -----------------------------------------------
 
@@ -3012,323 +6898,324 @@ segv.rb:6:in `block in <top (required)>'
 
 * Process memory map:
 
-55891458a000-55891458b000 r--p 00000000 fe:01 691729                     /usr/local/bin/ruby
-55891458b000-55891458c000 r-xp 00001000 fe:01 691729                     /usr/local/bin/ruby
-55891458c000-55891458d000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
-55891458d000-55891458e000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
-55891458e000-55891458f000 rw-p 00003000 fe:01 691729                     /usr/local/bin/ruby
-55891533e000-558917e6e000 rw-p 00000000 00:00 0                          [heap]
-7fddb4000000-7fddb4021000 rw-p 00000000 00:00 0 
-7fddb4021000-7fddb8000000 ---p 00000000 00:00 0 
-7fddb91ca000-7fddb93ba000 r--s 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fddb93ba000-7fddba3f9000 rw-p 00000000 00:00 0 
-7fddba3f9000-7fddbb039000 r--s 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fddbb039000-7fddbb073000 r--p 00000000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fddbb073000-7fddbb19c000 r-xp 0003a000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fddbb19c000-7fddbb1fc000 r--p 00163000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fddbb1fc000-7fddbb205000 r--p 001c2000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fddbb205000-7fddbb209000 rw-p 001cb000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
-7fddbb209000-7fddbb20b000 rw-p 00000000 00:00 0 
-7fddbb20b000-7fddbb20c000 ---p 00000000 00:00 0 
-7fddbb20c000-7fddbb6cf000 rw-p 00000000 00:00 0 
-7fddbb6cf000-7fddbb6d2000 r--p 00000000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fddbb6d2000-7fddbb6df000 r-xp 00003000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fddbb6df000-7fddbb6e2000 r--p 00010000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fddbb6e2000-7fddbb6e3000 ---p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fddbb6e3000-7fddbb6e4000 r--p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fddbb6e4000-7fddbb6e5000 rw-p 00014000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
-7fddbb6e5000-7fddbb7a6000 rw-p 00000000 00:00 0 
-7fddbb7a6000-7fddbb7a7000 r--p 00000000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fddbb7a7000-7fddbb7a9000 r-xp 00001000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fddbb7a9000-7fddbb7aa000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fddbb7aa000-7fddbb7ab000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fddbb7ab000-7fddbb7ac000 rw-p 00004000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
-7fddbb7ac000-7fddbb7ae000 r--p 00000000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fddbb7ae000-7fddbb7b6000 r-xp 00002000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fddbb7b6000-7fddbb7b8000 r--p 0000a000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fddbb7b8000-7fddbb7b9000 r--p 0000b000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fddbb7b9000-7fddbb7ba000 rw-p 0000c000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
-7fddbb7ba000-7fddbb7bc000 r--p 00000000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fddbb7bc000-7fddbb7c0000 r-xp 00002000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fddbb7c0000-7fddbb7c1000 r--p 00006000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fddbb7c1000-7fddbb7c2000 ---p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fddbb7c2000-7fddbb7c3000 r--p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fddbb7c3000-7fddbb7c4000 rw-p 00008000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
-7fddbb7c4000-7fddbb7c7000 r--p 00000000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fddbb7c7000-7fddbb7d9000 r-xp 00003000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fddbb7d9000-7fddbb7dd000 r--p 00015000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fddbb7dd000-7fddbb7de000 r--p 00018000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fddbb7de000-7fddbb7df000 rw-p 00019000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
-7fddbb7df000-7fddbb7e3000 r--p 00000000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fddbb7e3000-7fddbb811000 r-xp 00004000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fddbb811000-7fddbb819000 r--p 00032000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fddbb819000-7fddbb81a000 r--p 00039000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fddbb81a000-7fddbb81b000 rw-p 0003a000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
-7fddbb81b000-7fddbb81c000 rw-p 00000000 00:00 0 
-7fddbb81c000-7fddbb822000 r--p 00000000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fddbb822000-7fddbb844000 r-xp 00006000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fddbb844000-7fddbb84c000 r--p 00028000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fddbb84c000-7fddbb84d000 r--p 0002f000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fddbb84d000-7fddbb84e000 rw-p 00030000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
-7fddbb84e000-7fddbb8c6000 r--p 00000000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fddbb8c6000-7fddbba61000 r-xp 00078000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fddbba61000-7fddbbaf2000 r--p 00213000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fddbbaf2000-7fddbbb1e000 r--p 002a3000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fddbbb1e000-7fddbbb20000 rw-p 002cf000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
-7fddbbb20000-7fddbbb24000 rw-p 00000000 00:00 0 
-7fddbbb24000-7fddbbb40000 r--p 00000000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fddbbb40000-7fddbbb8f000 r-xp 0001c000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fddbbb8f000-7fddbbba9000 r--p 0006b000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fddbbba9000-7fddbbbaa000 ---p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fddbbbaa000-7fddbbbb3000 r--p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fddbbbb3000-7fddbbbb7000 rw-p 0008e000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
-7fddbbbb7000-7fddbbbcc000 r--p 00000000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fddbbbcc000-7fddbbc08000 r-xp 00015000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fddbbc08000-7fddbbc1a000 r--p 00051000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fddbbc1a000-7fddbbc1c000 r--p 00062000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fddbbc1c000-7fddbbc1e000 rw-p 00064000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
-7fddbbc1e000-7fddbbc1f000 rw-p 00000000 00:00 0 
-7fddbbc51000-7fddbbc87000 r--s 00000000 fe:01 691729                     /usr/local/bin/ruby
-7fddbbc87000-7fddbbc8a000 r--p 00000000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fddbbc8a000-7fddbbc9c000 r-xp 00003000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fddbbc9c000-7fddbbca0000 r--p 00015000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fddbbca0000-7fddbbca1000 r--p 00018000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fddbbca1000-7fddbbca2000 rw-p 00019000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7fddbbca2000-7fddbbca5000 r--p 00000000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fddbbca5000-7fddbbcad000 r-xp 00003000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fddbbcad000-7fddbbcaf000 r--p 0000b000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fddbbcaf000-7fddbbcb0000 ---p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fddbbcb0000-7fddbbcb1000 r--p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fddbbcb1000-7fddbbcb2000 rw-p 0000e000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
-7fddbbcb2000-7fddbbcb3000 r--p 00000000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fddbbcb3000-7fddbbcb5000 r-xp 00001000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fddbbcb5000-7fddbbcca000 r--p 00003000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fddbbcca000-7fddbbccb000 r--p 00017000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fddbbccb000-7fddbbccc000 rw-p 00018000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
-7fddbbccc000-7fddbbcce000 r--p 00000000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fddbbcce000-7fddbbcd2000 r-xp 00002000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fddbbcd2000-7fddbbcd3000 r--p 00006000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fddbbcd3000-7fddbbcd4000 ---p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fddbbcd4000-7fddbbcd5000 r--p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fddbbcd5000-7fddbbcd6000 rw-p 00008000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
-7fddbbcd6000-7fddbbcd7000 r--p 00000000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fddbbcd7000-7fddbbcd8000 r-xp 00001000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fddbbcd8000-7fddbbcd9000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fddbbcd9000-7fddbbcda000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fddbbcda000-7fddbbcdb000 rw-p 00003000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
-7fddbbcdb000-7fddbbcdc000 r--p 00000000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fddbbcdc000-7fddbbcdd000 r-xp 00001000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fddbbcdd000-7fddbbcde000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fddbbcde000-7fddbbcdf000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fddbbcdf000-7fddbbce0000 rw-p 00003000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
-7fddbbce0000-7fddbbce2000 r--p 00000000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fddbbce2000-7fddbbce5000 r-xp 00002000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fddbbce5000-7fddbbce7000 r--p 00005000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fddbbce7000-7fddbbce8000 r--p 00006000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fddbbce8000-7fddbbce9000 rw-p 00007000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
-7fddbbce9000-7fddbbcea000 r--p 00000000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fddbbcea000-7fddbbcec000 r-xp 00001000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fddbbcec000-7fddbbced000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fddbbced000-7fddbbcee000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fddbbcee000-7fddbbcef000 rw-p 00004000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
-7fddbbcef000-7fddbbcf1000 r--p 00000000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fddbbcf1000-7fddbbcf7000 r-xp 00002000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fddbbcf7000-7fddbbcf9000 r--p 00008000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fddbbcf9000-7fddbbcfa000 r--p 00009000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fddbbcfa000-7fddbbcfb000 rw-p 0000a000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
-7fddbbcfb000-7fddbbcfc000 r--p 00000000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fddbbcfc000-7fddbbcfd000 r-xp 00001000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fddbbcfd000-7fddbbcfe000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fddbbcfe000-7fddbbcff000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fddbbcff000-7fddbbd00000 rw-p 00003000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
-7fddbbd00000-7fddbbd01000 r--p 00000000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fddbbd01000-7fddbbd03000 r-xp 00001000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fddbbd03000-7fddbbd04000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fddbbd04000-7fddbbd05000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fddbbd05000-7fddbbd06000 rw-p 00004000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
-7fddbbd06000-7fddbbd07000 r--p 00000000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fddbbd07000-7fddbbd08000 r-xp 00001000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fddbbd08000-7fddbbd09000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fddbbd09000-7fddbbd0a000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fddbbd0a000-7fddbbd0b000 rw-p 00003000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
-7fddbbd0b000-7fddbbd0c000 ---p 00000000 00:00 0 
-7fddbbd0c000-7fddbbdad000 rw-p 00000000 00:00 0 
-7fddbbdad000-7fddbbdae000 ---p 00000000 00:00 0 
-7fddbbdae000-7fddbbe4f000 rw-p 00000000 00:00 0 
-7fddbbe4f000-7fddbbe50000 ---p 00000000 00:00 0 
-7fddbbe50000-7fddbbef1000 rw-p 00000000 00:00 0 
-7fddbbef1000-7fddbbef2000 ---p 00000000 00:00 0 
-7fddbbef2000-7fddbbf93000 rw-p 00000000 00:00 0 
-7fddbbf93000-7fddbbf94000 ---p 00000000 00:00 0 
-7fddbbf94000-7fddbc035000 rw-p 00000000 00:00 0 
-7fddbc035000-7fddbc036000 ---p 00000000 00:00 0 
-7fddbc036000-7fddbc0d7000 rw-p 00000000 00:00 0 
-7fddbc0d7000-7fddbc0d8000 ---p 00000000 00:00 0 
-7fddbc0d8000-7fddbc179000 rw-p 00000000 00:00 0 
-7fddbc179000-7fddbc17a000 ---p 00000000 00:00 0 
-7fddbc17a000-7fddbc21b000 rw-p 00000000 00:00 0 
-7fddbc21b000-7fddbc21c000 ---p 00000000 00:00 0 
-7fddbc21c000-7fddbc2bd000 rw-p 00000000 00:00 0 
-7fddbc2bd000-7fddbc2be000 ---p 00000000 00:00 0 
-7fddbc2be000-7fddbc35f000 rw-p 00000000 00:00 0 
-7fddbc35f000-7fddbc360000 ---p 00000000 00:00 0 
-7fddbc360000-7fddbc401000 rw-p 00000000 00:00 0 
-7fddbc401000-7fddbc402000 ---p 00000000 00:00 0 
-7fddbc402000-7fddbc4a3000 rw-p 00000000 00:00 0 
-7fddbc4a3000-7fddbc4a4000 ---p 00000000 00:00 0 
-7fddbc4a4000-7fddbc545000 rw-p 00000000 00:00 0 
-7fddbc545000-7fddbc546000 ---p 00000000 00:00 0 
-7fddbc546000-7fddbc5e7000 rw-p 00000000 00:00 0 
-7fddbc5e7000-7fddbc5e8000 ---p 00000000 00:00 0 
-7fddbc5e8000-7fddbc689000 rw-p 00000000 00:00 0 
-7fddbc689000-7fddbc68a000 ---p 00000000 00:00 0 
-7fddbc68a000-7fddbc72b000 rw-p 00000000 00:00 0 
-7fddbc72b000-7fddbc72c000 ---p 00000000 00:00 0 
-7fddbc72c000-7fddbc7cd000 rw-p 00000000 00:00 0 
-7fddbc7cd000-7fddbc7ce000 ---p 00000000 00:00 0 
-7fddbc7ce000-7fddbc86f000 rw-p 00000000 00:00 0 
-7fddbc86f000-7fddbc870000 ---p 00000000 00:00 0 
-7fddbc870000-7fddbc911000 rw-p 00000000 00:00 0 
-7fddbc911000-7fddbc912000 ---p 00000000 00:00 0 
-7fddbc912000-7fddbc9b3000 rw-p 00000000 00:00 0 
-7fddbc9b3000-7fddbc9b4000 ---p 00000000 00:00 0 
-7fddbc9b4000-7fddbca55000 rw-p 00000000 00:00 0 
-7fddbca55000-7fddbca56000 ---p 00000000 00:00 0 
-7fddbca56000-7fddbcaf7000 rw-p 00000000 00:00 0 
-7fddbcaf7000-7fddbcaf8000 ---p 00000000 00:00 0 
-7fddbcaf8000-7fddbcb99000 rw-p 00000000 00:00 0 
-7fddbcb99000-7fddbcb9a000 ---p 00000000 00:00 0 
-7fddbcb9a000-7fddbcc3b000 rw-p 00000000 00:00 0 
-7fddbcc3b000-7fddbcc3c000 ---p 00000000 00:00 0 
-7fddbcc3c000-7fddbccdd000 rw-p 00000000 00:00 0 
-7fddbccdd000-7fddbccde000 ---p 00000000 00:00 0 
-7fddbccde000-7fddbcd7f000 rw-p 00000000 00:00 0 
-7fddbcd7f000-7fddbcd80000 ---p 00000000 00:00 0 
-7fddbcd80000-7fddbce21000 rw-p 00000000 00:00 0 
-7fddbce21000-7fddbce22000 ---p 00000000 00:00 0 
-7fddbce22000-7fddbcec3000 rw-p 00000000 00:00 0 
-7fddbcec3000-7fddbcec4000 ---p 00000000 00:00 0 
-7fddbcec4000-7fddbcf65000 rw-p 00000000 00:00 0 
-7fddbcf65000-7fddbcf66000 ---p 00000000 00:00 0 
-7fddbcf66000-7fddbd007000 rw-p 00000000 00:00 0 
-7fddbd007000-7fddbd008000 ---p 00000000 00:00 0 
-7fddbd008000-7fddbd0a9000 rw-p 00000000 00:00 0 
-7fddbd0a9000-7fddbd0aa000 ---p 00000000 00:00 0 
-7fddbd0aa000-7fddbf154000 rw-p 00000000 00:00 0 
-7fddbf154000-7fddbf156000 r--p 00000000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fddbf156000-7fddbf159000 r-xp 00002000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fddbf159000-7fddbf15a000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fddbf15a000-7fddbf15b000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fddbf15b000-7fddbf15c000 rw-p 00006000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
-7fddbf15c000-7fddbf15d000 r--p 00000000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fddbf15d000-7fddbf15e000 r-xp 00001000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fddbf15e000-7fddbf15f000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fddbf15f000-7fddbf160000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fddbf160000-7fddbf161000 rw-p 00003000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
-7fddbf161000-7fddbf162000 r--p 00000000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fddbf162000-7fddbf163000 r-xp 00001000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fddbf163000-7fddbf164000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fddbf164000-7fddbf165000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fddbf165000-7fddbf166000 rw-p 00003000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
-7fddbf166000-7fddbf168000 r--p 00000000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fddbf168000-7fddbf16a000 r-xp 00002000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fddbf16a000-7fddbf16b000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fddbf16b000-7fddbf16c000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fddbf16c000-7fddbf16d000 rw-p 00005000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
-7fddbf16d000-7fddbf16f000 r--p 00000000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fddbf16f000-7fddbf175000 r-xp 00002000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fddbf175000-7fddbf177000 r--p 00008000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fddbf177000-7fddbf178000 r--p 00009000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fddbf178000-7fddbf179000 rw-p 0000a000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
-7fddbf179000-7fddbf17b000 r--p 00000000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fddbf17b000-7fddbf195000 r-xp 00002000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fddbf195000-7fddbf199000 r--p 0001c000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fddbf199000-7fddbf19a000 r--p 0001f000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fddbf19a000-7fddbf19b000 rw-p 00020000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
-7fddbf19b000-7fddbf19e000 r--p 00000000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fddbf19e000-7fddbf1a2000 r-xp 00003000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fddbf1a2000-7fddbf1a3000 r--p 00007000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fddbf1a3000-7fddbf1a4000 ---p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fddbf1a4000-7fddbf1a5000 r--p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fddbf1a5000-7fddbf1a6000 rw-p 00009000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
-7fddbf1a6000-7fddbf1a8000 r--p 00000000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fddbf1a8000-7fddbf1ac000 r-xp 00002000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fddbf1ac000-7fddbf1ae000 r--p 00006000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fddbf1ae000-7fddbf1af000 r--p 00007000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fddbf1af000-7fddbf1b0000 rw-p 00008000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
-7fddbf1b0000-7fddbf1b1000 r--p 00000000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fddbf1b1000-7fddbf1b2000 r-xp 00001000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fddbf1b2000-7fddbf1b3000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fddbf1b3000-7fddbf1b4000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fddbf1b4000-7fddbf1b5000 rw-p 00003000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
-7fddbf1b5000-7fddbf2b6000 rw-p 00000000 00:00 0 
-7fddbf2b6000-7fddbf2bd000 r--s 00000000 fe:01 5948201                    /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
-7fddbf2bd000-7fddbf2ef000 r--p 00000000 fe:01 5418520                    /usr/lib/locale/C.UTF-8/LC_CTYPE
-7fddbf2ef000-7fddbf2f1000 rw-p 00000000 00:00 0 
-7fddbf2f1000-7fddbf300000 r--p 00000000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fddbf300000-7fddbf3a7000 r-xp 0000f000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fddbf3a7000-7fddbf43e000 r--p 000b6000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fddbf43e000-7fddbf43f000 r--p 0014c000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fddbf43f000-7fddbf440000 rw-p 0014d000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
-7fddbf440000-7fddbf442000 r--p 00000000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fddbf442000-7fddbf457000 r-xp 00002000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fddbf457000-7fddbf471000 r--p 00017000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fddbf471000-7fddbf472000 r--p 00030000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fddbf472000-7fddbf473000 rw-p 00031000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
-7fddbf473000-7fddbf47b000 rw-p 00000000 00:00 0 
-7fddbf47b000-7fddbf47c000 r--p 00000000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fddbf47c000-7fddbf47e000 r-xp 00001000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fddbf47e000-7fddbf47f000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fddbf47f000-7fddbf480000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fddbf480000-7fddbf481000 rw-p 00004000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
-7fddbf481000-7fddbf483000 rw-p 00000000 00:00 0 
-7fddbf483000-7fddbf48d000 r--p 00000000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fddbf48d000-7fddbf4ed000 r-xp 0000a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fddbf4ed000-7fddbf504000 r--p 0006a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fddbf504000-7fddbf505000 ---p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fddbf505000-7fddbf506000 r--p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fddbf506000-7fddbf507000 rw-p 00082000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
-7fddbf507000-7fddbf50a000 r--p 00000000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fddbf50a000-7fddbf50e000 r-xp 00003000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fddbf50e000-7fddbf50f000 r--p 00007000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fddbf50f000-7fddbf510000 ---p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fddbf510000-7fddbf511000 r--p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fddbf511000-7fddbf512000 rw-p 00009000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
-7fddbf512000-7fddbf519000 r--p 00000000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fddbf519000-7fddbf52a000 r-xp 00007000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fddbf52a000-7fddbf52f000 r--p 00018000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fddbf52f000-7fddbf530000 r--p 0001c000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fddbf530000-7fddbf531000 rw-p 0001d000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-7fddbf531000-7fddbf535000 rw-p 00000000 00:00 0 
-7fddbf535000-7fddbf537000 r--p 00000000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fddbf537000-7fddbf548000 r-xp 00002000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fddbf548000-7fddbf54e000 r--p 00013000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fddbf54e000-7fddbf54f000 ---p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fddbf54f000-7fddbf550000 r--p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fddbf550000-7fddbf551000 rw-p 0001a000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
-7fddbf551000-7fddbf576000 r--p 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fddbf576000-7fddbf6ee000 r-xp 00025000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fddbf6ee000-7fddbf738000 r--p 0019d000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fddbf738000-7fddbf739000 ---p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fddbf739000-7fddbf73c000 r--p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fddbf73c000-7fddbf73f000 rw-p 001ea000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
-7fddbf73f000-7fddbf743000 rw-p 00000000 00:00 0 
-7fddbf747000-7fddbf777000 r--p 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fddbf777000-7fddbfa19000 r-xp 00030000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fddbfa19000-7fddbfb1e000 r--p 002d2000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fddbfb1e000-7fddbfb1f000 ---p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fddbfb1f000-7fddbfb26000 r--p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fddbfb26000-7fddbfb29000 rw-p 003de000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
-7fddbfb29000-7fddbfb3c000 rw-p 00000000 00:00 0 
-7fddbfb3c000-7fddbfb3d000 r--p 00000000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fddbfb3d000-7fddbfb60000 r-xp 00001000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fddbfb60000-7fddbfb68000 r--p 00024000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fddbfb69000-7fddbfb6a000 r--p 0002c000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fddbfb6a000-7fddbfb6b000 rw-p 0002d000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
-7fddbfb6b000-7fddbfb6c000 rw-p 00000000 00:00 0 
-7ffe69697000-7ffe69e96000 rw-p 00000000 00:00 0                          [stack]
-7ffe69fe2000-7ffe69fe5000 r--p 00000000 00:00 0                          [vvar]
-7ffe69fe5000-7ffe69fe7000 r-xp 00000000 00:00 0                          [vdso]
+561b91f83000-561b91f84000 r--p 00000000 fe:01 691729                     /usr/local/bin/ruby
+561b91f84000-561b91f85000 r-xp 00001000 fe:01 691729                     /usr/local/bin/ruby
+561b91f85000-561b91f86000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
+561b91f86000-561b91f87000 r--p 00002000 fe:01 691729                     /usr/local/bin/ruby
+561b91f87000-561b91f88000 rw-p 00003000 fe:01 691729                     /usr/local/bin/ruby
+561b92cf8000-561b958f4000 rw-p 00000000 00:00 0                          [heap]
+7fed83091000-7fed84000000 rw-p 00000000 00:00 0 
+7fed84000000-7fed84021000 rw-p 00000000 00:00 0 
+7fed84021000-7fed88000000 ---p 00000000 00:00 0 
+7fed88084000-7fed88274000 r--s 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fed88274000-7fed88344000 rw-p 00000000 00:00 0 
+7fed88344000-7fed88f84000 r--s 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fed88f84000-7fed88fbe000 r--p 00000000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fed88fbe000-7fed890e7000 r-xp 0003a000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fed890e7000-7fed89147000 r--p 00163000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fed89147000-7fed89150000 r--p 001c2000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fed89150000-7fed89154000 rw-p 001cb000 fe:01 1358203                    /app/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.1-x86_64-linux/lib/nokogiri/3.0/nokogiri.so
+7fed89154000-7fed89156000 rw-p 00000000 00:00 0 
+7fed89156000-7fed89157000 ---p 00000000 00:00 0 
+7fed89157000-7fed8961a000 rw-p 00000000 00:00 0 
+7fed8961a000-7fed8961d000 r--p 00000000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fed8961d000-7fed8962a000 r-xp 00003000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fed8962a000-7fed8962d000 r--p 00010000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fed8962d000-7fed8962e000 ---p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fed8962e000-7fed8962f000 r--p 00013000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fed8962f000-7fed89630000 rw-p 00014000 fe:01 1749755                    /usr/local/lib/ruby/3.0.0/x86_64-linux/zlib.so
+7fed89630000-7fed896f1000 rw-p 00000000 00:00 0 
+7fed896f1000-7fed896f2000 r--p 00000000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fed896f2000-7fed896f4000 r-xp 00001000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fed896f4000-7fed896f5000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fed896f5000-7fed896f6000 r--p 00003000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fed896f6000-7fed896f7000 rw-p 00004000 fe:01 1749660                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest/sha2.so
+7fed896f7000-7fed896f9000 r--p 00000000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fed896f9000-7fed89701000 r-xp 00002000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fed89701000-7fed89703000 r--p 0000a000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fed89703000-7fed89704000 r--p 0000b000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fed89704000-7fed89705000 rw-p 0000c000 fe:01 1749735                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/generator.so
+7fed89705000-7fed89707000 r--p 00000000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fed89707000-7fed8970b000 r-xp 00002000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fed8970b000-7fed8970c000 r--p 00006000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fed8970c000-7fed8970d000 ---p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fed8970d000-7fed8970e000 r--p 00007000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fed8970e000-7fed8970f000 rw-p 00008000 fe:01 1749736                    /usr/local/lib/ruby/3.0.0/x86_64-linux/json/ext/parser.so
+7fed8970f000-7fed89712000 r--p 00000000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fed89712000-7fed89724000 r-xp 00003000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fed89724000-7fed89728000 r--p 00015000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fed89728000-7fed89729000 r--p 00018000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fed89729000-7fed8972a000 rw-p 00019000 fe:01 1749648                    /usr/local/lib/ruby/3.0.0/x86_64-linux/bigdecimal.so
+7fed8972a000-7fed8972e000 r--p 00000000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fed8972e000-7fed8975c000 r-xp 00004000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fed8975c000-7fed89764000 r--p 00032000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fed89764000-7fed89765000 r--p 00039000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fed89765000-7fed89766000 rw-p 0003a000 fe:01 1749653                    /usr/local/lib/ruby/3.0.0/x86_64-linux/date_core.so
+7fed89766000-7fed89767000 rw-p 00000000 00:00 0 
+7fed89767000-7fed8976d000 r--p 00000000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fed8976d000-7fed8978f000 r-xp 00006000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fed8978f000-7fed89797000 r--p 00028000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fed89797000-7fed89798000 r--p 0002f000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fed89798000-7fed89799000 rw-p 00030000 fe:01 1749751                    /usr/local/lib/ruby/3.0.0/x86_64-linux/socket.so
+7fed89799000-7fed89811000 r--p 00000000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fed89811000-7fed899ac000 r-xp 00078000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fed899ac000-7fed89a3d000 r--p 00213000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fed89a3d000-7fed89a69000 r--p 002a3000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fed89a69000-7fed89a6b000 rw-p 002cf000 fe:01 1607191                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7fed89a6b000-7fed89a6f000 rw-p 00000000 00:00 0 
+7fed89a6f000-7fed89a8b000 r--p 00000000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fed89a8b000-7fed89ada000 r-xp 0001c000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fed89ada000-7fed89af4000 r--p 0006b000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fed89af4000-7fed89af5000 ---p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fed89af5000-7fed89afe000 r--p 00085000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fed89afe000-7fed89b02000 rw-p 0008e000 fe:01 1607277                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7fed89b02000-7fed89b17000 r--p 00000000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fed89b17000-7fed89b53000 r-xp 00015000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fed89b53000-7fed89b65000 r--p 00051000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fed89b65000-7fed89b67000 r--p 00062000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fed89b67000-7fed89b69000 rw-p 00064000 fe:01 1749740                    /usr/local/lib/ruby/3.0.0/x86_64-linux/openssl.so
+7fed89b69000-7fed89b6a000 rw-p 00000000 00:00 0 
+7fed89b9c000-7fed89bd2000 r--s 00000000 fe:01 691729                     /usr/local/bin/ruby
+7fed89bd2000-7fed89bd5000 r--p 00000000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fed89bd5000-7fed89be7000 r-xp 00003000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fed89be7000-7fed89beb000 r--p 00015000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fed89beb000-7fed89bec000 r--p 00018000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fed89bec000-7fed89bed000 rw-p 00019000 fe:01 5948255                    /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fed89bed000-7fed89bf0000 r--p 00000000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fed89bf0000-7fed89bf8000 r-xp 00003000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fed89bf8000-7fed89bfa000 r--p 0000b000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fed89bfa000-7fed89bfb000 ---p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fed89bfb000-7fed89bfc000 r--p 0000d000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fed89bfc000-7fed89bfd000 rw-p 0000e000 fe:01 1749739                    /usr/local/lib/ruby/3.0.0/x86_64-linux/objspace.so
+7fed89bfd000-7fed89bfe000 r--p 00000000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fed89bfe000-7fed89c00000 r-xp 00001000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fed89c00000-7fed89c15000 r--p 00003000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fed89c15000-7fed89c16000 r--p 00017000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fed89c16000-7fed89c17000 rw-p 00018000 fe:01 5947977                    /usr/lib/x86_64-linux-gnu/gconv/CP932.so
+7fed89c17000-7fed89c19000 r--p 00000000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fed89c19000-7fed89c1d000 r-xp 00002000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fed89c1d000-7fed89c1e000 r--p 00006000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fed89c1e000-7fed89c1f000 ---p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fed89c1f000-7fed89c20000 r--p 00007000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fed89c20000-7fed89c21000 rw-p 00008000 fe:01 1749730                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/console.so
+7fed89c21000-7fed89c22000 r--p 00000000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fed89c22000-7fed89c23000 r-xp 00001000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fed89c23000-7fed89c24000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fed89c24000-7fed89c25000 r--p 00002000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fed89c25000-7fed89c26000 rw-p 00003000 fe:01 1749713                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16be.so
+7fed89c26000-7fed89c27000 r--p 00000000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fed89c27000-7fed89c28000 r-xp 00001000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fed89c28000-7fed89c29000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fed89c29000-7fed89c2a000 r--p 00002000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fed89c2a000-7fed89c2b000 rw-p 00003000 fe:01 1749714                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/utf_16le.so
+7fed89c2b000-7fed89c2d000 r--p 00000000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fed89c2d000-7fed89c30000 r-xp 00002000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fed89c30000-7fed89c32000 r--p 00005000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fed89c32000-7fed89c33000 r--p 00006000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fed89c33000-7fed89c34000 rw-p 00007000 fe:01 1749724                    /usr/local/lib/ruby/3.0.0/x86_64-linux/etc.so
+7fed89c34000-7fed89c35000 r--p 00000000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fed89c35000-7fed89c37000 r-xp 00001000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fed89c37000-7fed89c38000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fed89c38000-7fed89c39000 r--p 00003000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fed89c39000-7fed89c3a000 rw-p 00004000 fe:01 1749650                    /usr/local/lib/ruby/3.0.0/x86_64-linux/cgi/escape.so
+7fed89c3a000-7fed89c3c000 r--p 00000000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fed89c3c000-7fed89c42000 r-xp 00002000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fed89c42000-7fed89c44000 r--p 00008000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fed89c44000-7fed89c45000 r--p 00009000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fed89c45000-7fed89c46000 rw-p 0000a000 fe:01 1749741                    /usr/local/lib/ruby/3.0.0/x86_64-linux/pathname.so
+7fed89c46000-7fed89c47000 r--p 00000000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fed89c47000-7fed89c48000 r-xp 00001000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fed89c48000-7fed89c49000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fed89c49000-7fed89c4a000 r--p 00002000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fed89c4a000-7fed89c4b000 rw-p 00003000 fe:01 1749737                    /usr/local/lib/ruby/3.0.0/x86_64-linux/monitor.so
+7fed89c4b000-7fed89c4c000 r--p 00000000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fed89c4c000-7fed89c4e000 r-xp 00001000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fed89c4e000-7fed89c4f000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fed89c4f000-7fed89c50000 r--p 00003000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fed89c50000-7fed89c51000 rw-p 00004000 fe:01 1749710                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/trans/transdb.so
+7fed89c51000-7fed89c52000 r--p 00000000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fed89c52000-7fed89c53000 r-xp 00001000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fed89c53000-7fed89c54000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fed89c54000-7fed89c55000 r--p 00002000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fed89c55000-7fed89c56000 rw-p 00003000 fe:01 1749666                    /usr/local/lib/ruby/3.0.0/x86_64-linux/enc/encdb.so
+7fed89c56000-7fed89c57000 ---p 00000000 00:00 0 
+7fed89c57000-7fed89cf8000 rw-p 00000000 00:00 0 
+7fed89cf8000-7fed89cf9000 ---p 00000000 00:00 0 
+7fed89cf9000-7fed89d9a000 rw-p 00000000 00:00 0 
+7fed89d9a000-7fed89d9b000 ---p 00000000 00:00 0 
+7fed89d9b000-7fed89e3c000 rw-p 00000000 00:00 0 
+7fed89e3c000-7fed89e3d000 ---p 00000000 00:00 0 
+7fed89e3d000-7fed89ede000 rw-p 00000000 00:00 0 
+7fed89ede000-7fed89edf000 ---p 00000000 00:00 0 
+7fed89edf000-7fed89f80000 rw-p 00000000 00:00 0 
+7fed89f80000-7fed89f81000 ---p 00000000 00:00 0 
+7fed89f81000-7fed8a022000 rw-p 00000000 00:00 0 
+7fed8a022000-7fed8a023000 ---p 00000000 00:00 0 
+7fed8a023000-7fed8a0c4000 rw-p 00000000 00:00 0 
+7fed8a0c4000-7fed8a0c5000 ---p 00000000 00:00 0 
+7fed8a0c5000-7fed8a166000 rw-p 00000000 00:00 0 
+7fed8a166000-7fed8a167000 ---p 00000000 00:00 0 
+7fed8a167000-7fed8a208000 rw-p 00000000 00:00 0 
+7fed8a208000-7fed8a209000 ---p 00000000 00:00 0 
+7fed8a209000-7fed8a2aa000 rw-p 00000000 00:00 0 
+7fed8a2aa000-7fed8a2ab000 ---p 00000000 00:00 0 
+7fed8a2ab000-7fed8a34c000 rw-p 00000000 00:00 0 
+7fed8a34c000-7fed8a34d000 ---p 00000000 00:00 0 
+7fed8a34d000-7fed8a3ee000 rw-p 00000000 00:00 0 
+7fed8a3ee000-7fed8a3ef000 ---p 00000000 00:00 0 
+7fed8a3ef000-7fed8a490000 rw-p 00000000 00:00 0 
+7fed8a490000-7fed8a491000 ---p 00000000 00:00 0 
+7fed8a491000-7fed8a532000 rw-p 00000000 00:00 0 
+7fed8a532000-7fed8a533000 ---p 00000000 00:00 0 
+7fed8a533000-7fed8a5d4000 rw-p 00000000 00:00 0 
+7fed8a5d4000-7fed8a5d5000 ---p 00000000 00:00 0 
+7fed8a5d5000-7fed8a676000 rw-p 00000000 00:00 0 
+7fed8a676000-7fed8a677000 ---p 00000000 00:00 0 
+7fed8a677000-7fed8a718000 rw-p 00000000 00:00 0 
+7fed8a718000-7fed8a719000 ---p 00000000 00:00 0 
+7fed8a719000-7fed8a7ba000 rw-p 00000000 00:00 0 
+7fed8a7ba000-7fed8a7bb000 ---p 00000000 00:00 0 
+7fed8a7bb000-7fed8a85c000 rw-p 00000000 00:00 0 
+7fed8a85c000-7fed8a85d000 ---p 00000000 00:00 0 
+7fed8a85d000-7fed8a8fe000 rw-p 00000000 00:00 0 
+7fed8a8fe000-7fed8a8ff000 ---p 00000000 00:00 0 
+7fed8a8ff000-7fed8a9a0000 rw-p 00000000 00:00 0 
+7fed8a9a0000-7fed8a9a1000 ---p 00000000 00:00 0 
+7fed8a9a1000-7fed8aa42000 rw-p 00000000 00:00 0 
+7fed8aa42000-7fed8aa43000 ---p 00000000 00:00 0 
+7fed8aa43000-7fed8aae4000 rw-p 00000000 00:00 0 
+7fed8aae4000-7fed8aae5000 ---p 00000000 00:00 0 
+7fed8aae5000-7fed8ab86000 rw-p 00000000 00:00 0 
+7fed8ab86000-7fed8ab87000 ---p 00000000 00:00 0 
+7fed8ab87000-7fed8ac28000 rw-p 00000000 00:00 0 
+7fed8ac28000-7fed8ac29000 ---p 00000000 00:00 0 
+7fed8ac29000-7fed8acca000 rw-p 00000000 00:00 0 
+7fed8acca000-7fed8accb000 ---p 00000000 00:00 0 
+7fed8accb000-7fed8ad6c000 rw-p 00000000 00:00 0 
+7fed8ad6c000-7fed8ad6d000 ---p 00000000 00:00 0 
+7fed8ad6d000-7fed8ae0e000 rw-p 00000000 00:00 0 
+7fed8ae0e000-7fed8ae0f000 ---p 00000000 00:00 0 
+7fed8ae0f000-7fed8aeb0000 rw-p 00000000 00:00 0 
+7fed8aeb0000-7fed8aeb1000 ---p 00000000 00:00 0 
+7fed8aeb1000-7fed8af52000 rw-p 00000000 00:00 0 
+7fed8af52000-7fed8af53000 ---p 00000000 00:00 0 
+7fed8af53000-7fed8aff4000 rw-p 00000000 00:00 0 
+7fed8aff4000-7fed8aff5000 ---p 00000000 00:00 0 
+7fed8aff5000-7fed8d09f000 rw-p 00000000 00:00 0 
+7fed8d09f000-7fed8d0a1000 r--p 00000000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fed8d0a1000-7fed8d0a4000 r-xp 00002000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fed8d0a4000-7fed8d0a5000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fed8d0a5000-7fed8d0a6000 r--p 00005000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fed8d0a6000-7fed8d0a7000 rw-p 00006000 fe:01 1755283                    /app/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib/racc/cparse.so
+7fed8d0a7000-7fed8d0a8000 r--p 00000000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fed8d0a8000-7fed8d0a9000 r-xp 00001000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fed8d0a9000-7fed8d0aa000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fed8d0aa000-7fed8d0ab000 r--p 00002000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fed8d0ab000-7fed8d0ac000 rw-p 00003000 fe:01 1749732                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/wait.so
+7fed8d0ac000-7fed8d0ad000 r--p 00000000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fed8d0ad000-7fed8d0ae000 r-xp 00001000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fed8d0ae000-7fed8d0af000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fed8d0af000-7fed8d0b0000 r--p 00002000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fed8d0b0000-7fed8d0b1000 rw-p 00003000 fe:01 1749731                    /usr/local/lib/ruby/3.0.0/x86_64-linux/io/nonblock.so
+7fed8d0b1000-7fed8d0b3000 r--p 00000000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fed8d0b3000-7fed8d0b5000 r-xp 00002000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fed8d0b5000-7fed8d0b6000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fed8d0b6000-7fed8d0b7000 r--p 00004000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fed8d0b7000-7fed8d0b8000 rw-p 00005000 fe:01 1749655                    /usr/local/lib/ruby/3.0.0/x86_64-linux/digest.so
+7fed8d0b8000-7fed8d0ba000 r--p 00000000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fed8d0ba000-7fed8d0c0000 r-xp 00002000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fed8d0c0000-7fed8d0c2000 r--p 00008000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fed8d0c2000-7fed8d0c3000 r--p 00009000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fed8d0c3000-7fed8d0c4000 rw-p 0000a000 fe:01 1749752                    /usr/local/lib/ruby/3.0.0/x86_64-linux/stringio.so
+7fed8d0c4000-7fed8d0c6000 r--p 00000000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fed8d0c6000-7fed8d0e0000 r-xp 00002000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fed8d0e0000-7fed8d0e4000 r--p 0001c000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fed8d0e4000-7fed8d0e5000 r--p 0001f000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fed8d0e5000-7fed8d0e6000 rw-p 00020000 fe:01 1607283                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.6
+7fed8d0e6000-7fed8d0e9000 r--p 00000000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fed8d0e9000-7fed8d0ed000 r-xp 00003000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fed8d0ed000-7fed8d0ee000 r--p 00007000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fed8d0ee000-7fed8d0ef000 ---p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fed8d0ef000-7fed8d0f0000 r--p 00008000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fed8d0f0000-7fed8d0f1000 rw-p 00009000 fe:01 1749742                    /usr/local/lib/ruby/3.0.0/x86_64-linux/psych.so
+7fed8d0f1000-7fed8d0f3000 r--p 00000000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fed8d0f3000-7fed8d0f7000 r-xp 00002000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fed8d0f7000-7fed8d0f9000 r--p 00006000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fed8d0f9000-7fed8d0fa000 r--p 00007000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fed8d0fa000-7fed8d0fb000 rw-p 00008000 fe:01 1749753                    /usr/local/lib/ruby/3.0.0/x86_64-linux/strscan.so
+7fed8d0fb000-7fed8d0fc000 r--p 00000000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fed8d0fc000-7fed8d0fd000 r-xp 00001000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fed8d0fd000-7fed8d0fe000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fed8d0fe000-7fed8d0ff000 r--p 00002000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fed8d0ff000-7fed8d100000 rw-p 00003000 fe:01 1749726                    /usr/local/lib/ruby/3.0.0/x86_64-linux/fiber.so
+7fed8d100000-7fed8d201000 rw-p 00000000 00:00 0 
+7fed8d201000-7fed8d208000 r--s 00000000 fe:01 5948201                    /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7fed8d208000-7fed8d23a000 r--p 00000000 fe:01 5418520                    /usr/lib/locale/C.UTF-8/LC_CTYPE
+7fed8d23a000-7fed8d23c000 rw-p 00000000 00:00 0 
+7fed8d23c000-7fed8d24b000 r--p 00000000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fed8d24b000-7fed8d2f2000 r-xp 0000f000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fed8d2f2000-7fed8d389000 r--p 000b6000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fed8d389000-7fed8d38a000 r--p 0014c000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fed8d38a000-7fed8d38b000 rw-p 0014d000 fe:01 5948272                    /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fed8d38b000-7fed8d38d000 r--p 00000000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fed8d38d000-7fed8d3a2000 r-xp 00002000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fed8d3a2000-7fed8d3bc000 r--p 00017000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fed8d3bc000-7fed8d3bd000 r--p 00030000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fed8d3bd000-7fed8d3be000 rw-p 00031000 fe:01 5948237                    /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7fed8d3be000-7fed8d3c6000 rw-p 00000000 00:00 0 
+7fed8d3c6000-7fed8d3c7000 r--p 00000000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fed8d3c7000-7fed8d3c9000 r-xp 00001000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fed8d3c9000-7fed8d3ca000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fed8d3ca000-7fed8d3cb000 r--p 00003000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fed8d3cb000-7fed8d3cc000 rw-p 00004000 fe:01 5948241                    /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fed8d3cc000-7fed8d3ce000 rw-p 00000000 00:00 0 
+7fed8d3ce000-7fed8d3d8000 r--p 00000000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fed8d3d8000-7fed8d438000 r-xp 0000a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fed8d438000-7fed8d44f000 r--p 0006a000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fed8d44f000-7fed8d450000 ---p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fed8d450000-7fed8d451000 r--p 00081000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fed8d451000-7fed8d452000 rw-p 00082000 fe:01 5948259                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.4.0
+7fed8d452000-7fed8d455000 r--p 00000000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fed8d455000-7fed8d459000 r-xp 00003000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fed8d459000-7fed8d45a000 r--p 00007000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fed8d45a000-7fed8d45b000 ---p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fed8d45b000-7fed8d45c000 r--p 00008000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fed8d45c000-7fed8d45d000 rw-p 00009000 fe:01 5948328                    /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fed8d45d000-7fed8d464000 r--p 00000000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fed8d464000-7fed8d475000 r-xp 00007000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fed8d475000-7fed8d47a000 r--p 00018000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fed8d47a000-7fed8d47b000 r--p 0001c000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fed8d47b000-7fed8d47c000 rw-p 0001d000 fe:01 5948324                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fed8d47c000-7fed8d480000 rw-p 00000000 00:00 0 
+7fed8d480000-7fed8d482000 r--p 00000000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fed8d482000-7fed8d493000 r-xp 00002000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fed8d493000-7fed8d499000 r--p 00013000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fed8d499000-7fed8d49a000 ---p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fed8d49a000-7fed8d49b000 r--p 00019000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fed8d49b000-7fed8d49c000 rw-p 0001a000 fe:01 5948360                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fed8d49c000-7fed8d4c1000 r--p 00000000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fed8d4c1000-7fed8d639000 r-xp 00025000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fed8d639000-7fed8d683000 r--p 0019d000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fed8d683000-7fed8d684000 ---p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fed8d684000-7fed8d687000 r--p 001e7000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fed8d687000-7fed8d68a000 rw-p 001ea000 fe:01 5948230                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fed8d68a000-7fed8d68e000 rw-p 00000000 00:00 0 
+7fed8d692000-7fed8d6c2000 r--p 00000000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fed8d6c2000-7fed8d964000 r-xp 00030000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fed8d964000-7fed8da69000 r--p 002d2000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fed8da69000-7fed8da6a000 ---p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fed8da6a000-7fed8da71000 r--p 003d7000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fed8da71000-7fed8da74000 rw-p 003de000 fe:01 1736686                    /usr/local/lib/libruby.so.3.0.0
+7fed8da74000-7fed8da87000 rw-p 00000000 00:00 0 
+7fed8da87000-7fed8da88000 r--p 00000000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fed8da88000-7fed8daab000 r-xp 00001000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fed8daab000-7fed8dab3000 r--p 00024000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fed8dab4000-7fed8dab5000 r--p 0002c000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fed8dab5000-7fed8dab6000 rw-p 0002d000 fe:01 5948208                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fed8dab6000-7fed8dab7000 rw-p 00000000 00:00 0 
+7ffc5d6b4000-7ffc5deb3000 rw-p 00000000 00:00 0                          [stack]
+7ffc5dfe6000-7ffc5dfe9000 r--p 00000000 00:00 0                          [vvar]
+7ffc5dfe9000-7ffc5dfeb000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 
 

@@ -1807,9 +1807,12 @@ module ActionDispatch
 
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
             path = path_for_action(action, _path)
+            p '---------'
+            p path
 
             as = if !options.fetch(:as, true) # if it's set to nil or false
               options.delete(:as)
+              raise
             else
               name_for_action(options.delete(:as), action)
             end
