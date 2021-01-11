@@ -1437,7 +1437,7 @@ module ActionDispatch
 
 
           # ==============================
-          path = path_for_action(:index, nil)
+          path = @scope[:path].to_s
           name = name_for_action(nil, :index)
           path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
           ast = Journey::Parser.parse path
@@ -1724,13 +1724,14 @@ module ActionDispatch
           end
 
           def path_for_action(action, path)
-            return "#{@scope[:path]}/#{path}" if path
+            #return "#{@scope[:path]}/#{path}" if path
 
-            if canonical_action?(action)
+            #if canonical_action?(action)
               @scope[:path].to_s
-            else
-              "#{@scope[:path]}/#{action_path(action)}"
-            end
+            #else
+            #  raise
+            #  "#{@scope[:path]}/#{action_path(action)}"
+            #end
           end
 
           def action_path(name)
@@ -1826,7 +1827,6 @@ module ActionDispatch
           end
 
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
-            path = path_for_action(action, _path)
             name = name_for_action(options.delete(:as), action)
             path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), formatted
             ast = Journey::Parser.parse path
