@@ -1490,10 +1490,6 @@ module ActionDispatch
         def resources(*resources, &block)
           options = resources.extract_options!.dup
 
-          if apply_common_behavior_for(:resources, resources, options, &block)
-            return self
-          end
-
           with_scope_level(:resources) do
             options = apply_action_options options
             resource_scope(Resource.new(resources.pop, api_only?, @scope[:shallow], options)) do
@@ -1692,38 +1688,6 @@ module ActionDispatch
           end
 
           def apply_common_behavior_for(method, resources, options, &block)
-            return
-            if resources.length > 1
-              resources.each { |r| public_send(method, r, options, &block) }
-              return true
-            end
-
-            if options[:shallow]
-              options.delete(:shallow)
-              shallow do
-                public_send(method, resources.pop, options, &block)
-              end
-              return true
-            end
-
-            if resource_scope?
-              nested { public_send(method, resources.pop, options, &block) }
-              return true
-            end
-
-            options.keys.each do |k|
-              (options[:constraints] ||= {})[k] = options.delete(k) if options[k].is_a?(Regexp)
-            end
-
-            scope_options = options.slice!(*RESOURCE_OPTIONS)
-            unless scope_options.empty?
-              scope(scope_options) do
-                public_send(method, resources.pop, options, &block)
-              end
-              return true
-            end
-
-            false
           end
 
           def apply_action_options(options)
