@@ -1775,19 +1775,12 @@ module ActionDispatch
 
           def map_match(paths, options)
             return if paths.empty?
-            p paths
-            p options
             controller = nil
+            action = :index
+            via = [:get]
+            anchor = true
 
-            #path_types = paths.group_by(&:class)
-            #(path_types[Symbol] || []).each do |action|
-              action = :index
-              via = [:get]
-              anchor = true
-
-              add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
-              #break
-            #end
+            add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
 
             self
           end
