@@ -1439,20 +1439,19 @@ module ActionDispatch
         #   resources :posts, path: "admin/posts"
         def resources(x)
           @scope = @scope.new_level(:resources)
-            r = Resource.new(x, false, nil, {})
-            @scope = @scope.new(scope_level_resource: r)
-            cont = r.resource_scope
-            @scope = @scope.new(controller: cont)
-            @scope = @scope.new_level(:new)
-            y = merge_path_scope(@scope[:path], "#{x}/new")
-            @scope = @scope.new(path: y)
-            get :new
-            @scope = @scope.parent
-            @scope = @scope.parent
-            @scope = @scope.parent
-            @scope = @scope.parent
+          r = Resource.new(x, false, nil, {})
+          @scope = @scope.new(scope_level_resource: r)
+          cont = r.resource_scope
+          @scope = @scope.new(controller: cont)
+          @scope = @scope.new_level(:new)
+          y = merge_path_scope(@scope[:path], "#{x}/new")
+          @scope = @scope.new(path: y)
+          get :new
           @scope = @scope.parent
-
+          @scope = @scope.parent
+          @scope = @scope.parent
+          @scope = @scope.parent
+          @scope = @scope.parent
 
           self
         end
