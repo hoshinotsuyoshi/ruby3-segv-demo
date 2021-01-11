@@ -760,20 +760,8 @@ module ActionDispatch
 
         private
           def map_method(method, args, &block)
-            options = args.extract_options!
-            options[:via] = method
-            # match(*args, options, &block)
-
-            #def match(path, *rest, &block)
-            #  # p path
-            #  # p rest
-            #  # :index
-            #  # [{:via=>:get}]
-            #  if rest.empty? && Hash === path
-            #    return
-            #  end
+            args.extract_options!
             map_match(args, {via: method})
-            #end
 
             self
           end
@@ -1446,8 +1434,11 @@ module ActionDispatch
           #@scope = @scope.new_level(:new)
           #y = merge_path_scope(@scope[:path], "#{x}/new")
           #@scope = @scope.new(path: y)
+
           #get :new
-          map_method(:get, [:new])
+          #map_method(:get, [:new])
+          map_match([:new], {via: :get})
+
           #@scope = @scope.parent
           #@scope = @scope.parent
           #@scope = @scope.parent
