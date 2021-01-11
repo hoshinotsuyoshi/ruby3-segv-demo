@@ -582,8 +582,7 @@ module ActionDispatch
         route = @set.add_route(name, mapping)
 
         # named_routes はActionDispatch::Routing::RouteSet::NamedRouteCollection
-        # []= はaddのalias
-        named_routes[name] = route if name
+        named_routes.add(name, route) if name
         route
       end
 
