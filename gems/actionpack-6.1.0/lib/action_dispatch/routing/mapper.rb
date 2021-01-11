@@ -1439,10 +1439,14 @@ module ActionDispatch
           #-----------------
           # ???: segv point???
           url_name = "#{x}_url"
+          path_name = "#{x}_path"
 
           @set.named_routes.path_helpers_module.define_method(url_name) do |*args|
           end
+          @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
+          end
           @set.named_routes.path_helpers << url_name
+          @set.named_routes.path_helpers << path_name
           #-----------------
 
           #### ==============================
