@@ -105,10 +105,13 @@ module ActionDispatch
           path_name = :"#{name}_path"
           url_name  = :"#{name}_url"
 
-          if routes.key? key
-            @path_helpers_module.undef_method path_name
-            @url_helpers_module.undef_method url_name
-          end
+          # if routes.key? key
+          #   raise
+          #   @path_helpers_module.undef_method path_name
+          #   @url_helpers_module.undef_method url_name
+          # end
+
+          # routesはHash
           routes[key] = route
 
           helper = UrlHelper.create(route, route.defaults, name)
@@ -172,11 +175,12 @@ module ActionDispatch
 
         class UrlHelper
           def self.create(route, options, route_name)
-            if optimize_helper?(route)
+            #if optimize_helper?(route)
               OptimizedUrlHelper.new(route, options, route_name)
-            else
-              new(route, options, route_name)
-            end
+            #else
+            #  raise
+            #  new(route, options, route_name)
+            #end
           end
 
           def self.optimize_helper?(route)
@@ -210,6 +214,7 @@ module ActionDispatch
 
                 url_strategy.call options
               else
+                raise
                 super
               end
             end
@@ -581,7 +586,13 @@ module ActionDispatch
       end
 
       def add_route(mapping, name)
+        # @setはJourney::Routes
+
+        # なんかよばないとすすまないのでよぶ
         route = @set.add_route(name, mapping)
+
+        # named_routes はActionDispatch::Routing::RouteSet::NamedRouteCollection
+        # []= はaddのalias
         named_routes[name] = route if name
         route
       end

@@ -1813,13 +1813,14 @@ module ActionDispatch
 
             as = name_for_action(options.delete(:as), action)
             path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), formatted
-            p path
             ast = Journey::Parser.parse path
 
             controller, default_action, to, via, formatted, options_constraints, anchor, options = nil, "index", nil, [:get], nil, {}, true, {}
 
             mapping = Mapping.build(@scope, @set, ast, controller, default_action, to, via, formatted, options_constraints, anchor, options)
             @set.add_route(mapping, as)
+
+
           end
 
           def match_root_route(options)

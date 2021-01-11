@@ -41,11 +41,13 @@ module ActionDispatch
       end
 
       def partition_route(route)
-        if route.path.anchored && route.ast.grep(Nodes::Symbol).all?(&:default_regexp?)
+        #if route.path.anchored && route.ast.grep(Nodes::Symbol).all?(&:default_regexp?)
+        #  p 1
           anchored_routes << route
-        else
-          custom_routes << route
-        end
+        #else
+        #  raise
+        #  custom_routes << route
+        #end
       end
 
       def ast
@@ -63,7 +65,18 @@ module ActionDispatch
       end
 
       def add_route(name, mapping)
-        route = mapping.make_route name, routes.length
+        route =
+          Journey::Route.new(name: name,
+                             app: mapping.application,
+                             path: mapping.path,
+                             constraints: mapping.conditions,
+                             required_defaults: mapping.required_defaults,
+                             defaults: mapping.defaults,
+                             request_method_match: mapping.send(:request_method),
+                             precedence: routes.length,
+                             scope_options: mapping.scope_options,
+                             internal: mapping.instance_variable_get(:@internal))
+
         routes << route
         partition_route(route)
         clear_cache!
