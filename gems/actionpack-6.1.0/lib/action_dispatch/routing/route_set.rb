@@ -67,7 +67,8 @@ module ActionDispatch
       class NamedRouteCollection
         include Enumerable
         attr_reader :routes, :url_helpers_module, :path_helpers_module
-        private :routes
+        attr_reader :path_helpers
+        # private :routes
 
         def initialize
           @routes = {}
@@ -582,7 +583,23 @@ module ActionDispatch
         route = @set.add_route(name, mapping)
 
         # named_routes はActionDispatch::Routing::RouteSet::NamedRouteCollection
-        named_routes.add(name, route) if name
+        # named_routes.add(name, route) if name
+
+        if name
+          key       = name.to_sym
+          path_name = :"#{name}_path"
+
+          # routesはHash
+          routes = named_routes.routes # publicにしたった
+          routes[key] = route
+
+          # TODO: segv point
+          named_routes.path_helpers_module.define_method(path_name) do |*args|
+          end
+
+          named_routes.path_helpers << path_name
+        end
+
         route
       end
 
