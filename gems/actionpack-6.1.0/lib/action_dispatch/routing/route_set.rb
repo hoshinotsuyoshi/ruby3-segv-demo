@@ -105,7 +105,10 @@ module ActionDispatch
           path_name = :"#{name}_path"
           # routesはHash
           routes[key] = route
-          define_url_helper @path_helpers_module, path_name, nil, nil
+
+          @path_helpers_module.define_method(path_name) do |*args|
+          end
+
           @path_helpers << path_name
         end
 
