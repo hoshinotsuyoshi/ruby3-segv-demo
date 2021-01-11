@@ -1437,11 +1437,9 @@ module ActionDispatch
         #
         #   # resource actions are at /admin/posts.
         #   resources :posts, path: "admin/posts"
-        def resources(*resources, &block)
+        def resources(x)
           with_scope_level(:resources) do
-            x = resources.pop
             resource_scope(Resource.new(x, false, nil, {})) do
-              # yield if block_given?
               new do
                 get :new
               end
