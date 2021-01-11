@@ -1439,7 +1439,9 @@ module ActionDispatch
         #   resources :posts, path: "admin/posts"
         def resources(x)
           with_scope_level(:resources) do
-            resource_scope(Resource.new(x, false, nil, {})) do
+            r = Resource.new(x, false, nil, {})
+            @scope = @scope.new(scope_level_resource: r)
+            controller(r.resource_scope) do
                 @scope = @scope.new_level(:new)
                 y = merge_path_scope(@scope[:path], "#{x}/new")
                 @scope = @scope.new(path: y)
@@ -1447,6 +1449,7 @@ module ActionDispatch
                 @scope = @scope.parent
                 @scope = @scope.parent
             end
+            @scope = @scope.parent
           end
 
           self
