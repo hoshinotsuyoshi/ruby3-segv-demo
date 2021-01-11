@@ -1440,8 +1440,14 @@ module ActionDispatch
         def resources(x)
           with_scope_level(:resources) do
             resource_scope(Resource.new(x, false, nil, {})) do
-              new do
-                get :new
+              # new do
+              #   get :new
+              # end
+              with_scope_level(:new) do
+                path_scope(parent_resource.new_scope(action_path(:new))) do
+                  # yield
+                  get :new
+                end
               end
             end
           end
@@ -1501,10 +1507,6 @@ module ActionDispatch
         end
 
         def new
-          unless resource_scope?
-            raise ArgumentError, "can't use new outside resource(s) scope"
-          end
-
           with_scope_level(:new) do
             path_scope(parent_resource.new_scope(action_path(:new))) do
               yield
