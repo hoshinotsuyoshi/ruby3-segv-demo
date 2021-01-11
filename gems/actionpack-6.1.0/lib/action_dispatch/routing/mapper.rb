@@ -1438,7 +1438,7 @@ module ActionDispatch
         #   # resource actions are at /admin/posts.
         #   resources :posts, path: "admin/posts"
         def resources(x)
-          with_scope_level(:resources) do
+          @scope = @scope.new_level(:resources)
             r = Resource.new(x, false, nil, {})
             @scope = @scope.new(scope_level_resource: r)
             cont = r.resource_scope
@@ -1451,7 +1451,8 @@ module ActionDispatch
             @scope = @scope.parent
             @scope = @scope.parent
             @scope = @scope.parent
-          end
+          @scope = @scope.parent
+
 
           self
         end
