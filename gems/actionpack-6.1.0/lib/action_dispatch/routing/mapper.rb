@@ -1444,7 +1444,9 @@ module ActionDispatch
               #   get :new
               # end
               with_scope_level(:new) do
-                path_scope(parent_resource.new_scope(action_path(:new))) do
+                z = parent_resource.new_scope('new')
+                p z
+                path_scope("#{x}/new") do
                   # yield
                   get :new
                 end
