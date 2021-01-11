@@ -1945,18 +1945,7 @@ module ActionDispatch
           end
 
           def decomposed_match(path, controller, options, _path, to, via, formatted, anchor, options_constraints)
-            if on = options.delete(:on)
-              send(on) { decomposed_match(path, controller, options, _path, to, via, formatted, anchor, options_constraints) }
-            else
-              case @scope.scope_level
-              when :resources
-                nested { decomposed_match(path, controller, options, _path, to, via, formatted, anchor, options_constraints) }
-              when :resource
-                member { decomposed_match(path, controller, options, _path, to, via, formatted, anchor, options_constraints) }
-              else
-                add_route(path, controller, options, _path, to, via, formatted, anchor, options_constraints)
-              end
-            end
+            add_route(path, controller, options, _path, to, via, formatted, anchor, options_constraints)
           end
 
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
