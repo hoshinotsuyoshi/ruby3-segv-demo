@@ -1426,54 +1426,34 @@ module ActionDispatch
         #   # resource actions are at /admin/posts.
         #   resources :posts, path: "admin/posts"
         def resources(x)
-          #@scope = @scope.new_level(:resources)
-          #r = Resource.new(x, false, nil, {})
-          #@scope = @scope.new(scope_level_resource: r)
-          #cont = r.resource_scope
-          #@scope = @scope.new(controller: cont)
-          #@scope = @scope.new_level(:new)
-          #y = merge_path_scope(@scope[:path], "#{x}/new")
-          #@scope = @scope.new(path: y)
+          @scope = @scope.new_level(:resources)
+          r = Resource.new(x, false, nil, {})
+          @scope = @scope.new(scope_level_resource: r)
+          cont = r.resource_scope
+          @scope = @scope.new(controller: cont)
+          @scope = @scope.new_level(:new)
+          y = merge_path_scope(@scope[:path], "#{x}/new")
+          @scope = @scope.new(path: y)
 
-          #get :new
-          #map_method(:get, [:new])
+          ccc(:index)
 
-          xxx
-          #@scope = @scope.parent
-          #@scope = @scope.parent
-          #@scope = @scope.parent
-          #@scope = @scope.parent
-          #@scope = @scope.parent
+          @scope = @scope.parent
+          @scope = @scope.parent
+          @scope = @scope.parent
+          @scope = @scope.parent
+          @scope = @scope.parent
 
           self
         end
 
-        def xxx
-          yyy
-        end
-
-        def yyy
-          zzz
-        end
-
-        def zzz
-          aaa
-        end
-
-        def aaa
-          bbb
-        end
-
-        def bbb
-          ccc
-        end
-
-        def ccc
+        def ccc(action)
           controller = nil
-          action = :index
+          # action = :index
           via = [:get]
           anchor = true
+
           add_route(action, controller, {}, nil, nil, via, nil, anchor, {})
+          self
         end
 
         # To add a route to the collection:
@@ -1831,13 +1811,9 @@ module ActionDispatch
           def add_route(action, controller, options, _path, to, via, formatted, anchor, options_constraints)
             path = path_for_action(action, _path)
 
-            as = if !options.fetch(:as, true) # if it's set to nil or false
-              options.delete(:as)
-            else
-              name_for_action(options.delete(:as), action)
-            end
-
+            as = name_for_action(options.delete(:as), action)
             path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), formatted
+            p path
             ast = Journey::Parser.parse path
 
             controller, default_action, to, via, formatted, options_constraints, anchor, options = nil, "index", nil, [:get], nil, {}, true, {}
