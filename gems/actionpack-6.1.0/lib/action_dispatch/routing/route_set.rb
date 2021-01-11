@@ -581,33 +581,8 @@ module ActionDispatch
       end
 
       def add_route(mapping, name)
-        raise ArgumentError, "Invalid route name: '#{name}'" unless name.blank? || name.to_s.match(/^[_a-z]\w*$/i)
-
-        if name && named_routes[name]
-          raise ArgumentError, "Invalid route name, already in use: '#{name}' \n" \
-            "You may have defined two routes with the same name using the `:as` option, or " \
-            "you may be overriding a route already defined by a resource with the same naming. " \
-            "For the latter, you can restrict the routes created with `resources` as explained here: \n" \
-            "https://guides.rubyonrails.org/routing.html#restricting-the-routes-created"
-        end
-
         route = @set.add_route(name, mapping)
         named_routes[name] = route if name
-
-        if route.segment_keys.include?(:controller)
-          ActiveSupport::Deprecation.warn(<<-MSG.squish)
-            Using a dynamic :controller segment in a route is deprecated and
-            will be removed in Rails 6.2.
-          MSG
-        end
-
-        if route.segment_keys.include?(:action)
-          ActiveSupport::Deprecation.warn(<<-MSG.squish)
-            Using a dynamic :action segment in a route is deprecated and
-            will be removed in Rails 6.2.
-          MSG
-        end
-
         route
       end
 
