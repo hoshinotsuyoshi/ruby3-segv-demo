@@ -1889,18 +1889,6 @@ module ActionDispatch
           end
 
           def map_match(paths, options)
-            if options[:on] && !VALID_ON_OPTIONS.include?(options[:on])
-              raise ArgumentError, "Unknown scope #{on.inspect} given to :on"
-            end
-
-            if @scope[:to]
-              options[:to] ||= @scope[:to]
-            end
-
-            if @scope[:controller] && @scope[:action]
-              options[:to] ||= "#{@scope[:controller]}##{@scope[:action]}"
-            end
-
             controller = options.delete(:controller) || @scope[:controller]
             option_path = options.delete :path
             to = options.delete :to
@@ -1914,9 +1902,6 @@ module ActionDispatch
             path_types = paths.group_by(&:class)
             (path_types[String] || []).each do |_path|
               route_options = options.dup
-              if _path && option_path
-                raise ArgumentError, "Ambiguous route definition. Both :path and the route path were specified as strings."
-              end
               to = get_to_from_path(_path, to, route_options[:action])
               add_route(_path, controller, route_options, _path, to, via, formatted, anchor, options_constraints)
             end
