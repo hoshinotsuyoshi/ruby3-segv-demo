@@ -1436,37 +1436,46 @@ module ActionDispatch
           @scope = @scope.new(path: y)
 
 
-          # ==============================
-          path = @scope[:path].to_s
-          # name = name_for_action(nil, :index)
+          #-----------------
+          # ???: segv point???
+          url_name = "#{x}_url"
 
-            parent_resource = @scope[:scope_level_resource]
-
-            member_name = parent_resource.member_name
-            # よぶとsegvしやすい??
-            action_name = @scope.action_name(nil, nil, nil, member_name)
-            action_name = [nil, :new, nil, member_name]
-            candidate = action_name.select(&:present?).join("_")
-          name = candidate
-
-          ###path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
-          ###ast = Journey::Parser.parse path
-          ###mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
-          #### @set.setはJourney::Routes
-          ###route = @set.set.add_route(name, mapping)
-
-          key       = name.to_sym
-          path_name = :"#{name}_path"
-
-          # routesはHash
-          ###routes = @set.named_routes.routes # publicにしたった
-          ###routes[key] = route
-
-          # TODO: segv point
-          @set.named_routes.path_helpers_module.define_method(path_name) do |*args|
+          @set.named_routes.path_helpers_module.define_method(url_name) do |*args|
           end
+          @set.named_routes.path_helpers << url_name
+          #-----------------
 
-          @set.named_routes.path_helpers << path_name
+          #### ==============================
+          ###path = @scope[:path].to_s
+          #### name = name_for_action(nil, :index)
+
+          ###  parent_resource = @scope[:scope_level_resource]
+
+          ###  member_name = parent_resource.member_name
+          ###  # よぶとsegvしやすい??
+          ###  action_name = @scope.action_name(nil, nil, nil, member_name)
+          ###  action_name = [nil, :new, nil, member_name]
+          ###  candidate = action_name.select(&:present?).join("_")
+          ###name = candidate
+
+          ######path = Mapping.normalize_path URI::DEFAULT_PARSER.escape(path), nil
+          ######ast = Journey::Parser.parse path
+          ######mapping = Mapping.build(@scope, @set, ast, nil, "index", nil, [:get], nil, {}, true, {})
+          ####### @set.setはJourney::Routes
+          ######route = @set.set.add_route(name, mapping)
+
+          ###key       = name.to_sym
+          ###path_name = :"#{name}_path"
+
+          #### routesはHash
+          ######routes = @set.named_routes.routes # publicにしたった
+          ######routes[key] = route
+
+          #### TODO: segv point
+          ###@set.named_routes.path_helpers_module.define_method(path_name) do |*args|
+          ###end
+
+          ###@set.named_routes.path_helpers << path_name
           # ==============================
 
           @scope = @scope.parent
